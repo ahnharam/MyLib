@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\솔네트웍스\obj\Debug\
+C:\CodeSample\PoleServer\obj\Debug\
 PoleServerWithUI
 none
 false
 DEBUG;TRACE
-D:\솔네트웍스\App.xaml
-2-1847960329
+C:\CodeSample\PoleServer\App.xaml
+21777400526
 
-14-341357578
-1251645065004
+14798699509
+125535998242
 MainWindow.xaml;View\DeviceStateView.xaml;
 
 False
