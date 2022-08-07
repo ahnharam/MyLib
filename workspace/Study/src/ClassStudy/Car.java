@@ -18,6 +18,6 @@ public class Car implements CarInterface{
 	
 	@Override
 	public void Right(String str) {
-		System.out.println(str + " Right");
+		System.out.println(str + " Right2");
 	}
 }
