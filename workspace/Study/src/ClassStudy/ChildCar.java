@@ -11,4 +11,9 @@ public class ChildCar extends Car{
 		
 		System.out.println("Front Speed : " + speed);
 	}
+	
+	public int Back2(int num) {
+		
+		return num+num;
+	}
 }

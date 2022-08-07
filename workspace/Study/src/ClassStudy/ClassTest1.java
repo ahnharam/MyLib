@@ -7,7 +7,10 @@ public class ClassTest1 {
 	public static void main(String[] args) {
 		Car k7 = new Car();
 		Car k9 = new Car();
+		
 		ChildCar k5 = new ChildCar(); 
+		
+		
 		boolean check;
 		
 		do {			
@@ -30,6 +33,11 @@ public class ClassTest1 {
 			else if(input.equals("k5")) {
 				k5.Front();
 				k5.Front("k5");
+				
+				int a = k5.Back2(10);
+				
+				System.out.println("a : " + a);
+				
 				check = true;
 			}
 			else {
