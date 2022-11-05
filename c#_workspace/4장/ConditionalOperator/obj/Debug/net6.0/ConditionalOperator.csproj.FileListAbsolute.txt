@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\4장\ConditionalOperator\bin\Debug\net6.0\ConditionalOperator.exe
+C:\Users\M\source\repos\4장\ConditionalOperator\bin\Debug\net6.0\ConditionalOperator.deps.json
+C:\Users\M\source\repos\4장\ConditionalOperator\bin\Debug\net6.0\ConditionalOperator.runtimeconfig.json
+C:\Users\M\source\repos\4장\ConditionalOperator\bin\Debug\net6.0\ConditionalOperator.dll
+C:\Users\M\source\repos\4장\ConditionalOperator\bin\Debug\net6.0\ConditionalOperator.pdb
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.AssemblyInfo.cs
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.dll
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\refint\ConditionalOperator.dll
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.pdb
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ConditionalOperator.genruntimeconfig.cache
+C:\Users\M\source\repos\4장\ConditionalOperator\obj\Debug\net6.0\ref\ConditionalOperator.dll

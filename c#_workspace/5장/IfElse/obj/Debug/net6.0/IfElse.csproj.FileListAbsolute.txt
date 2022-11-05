@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\5장\IfElse\bin\Debug\net6.0\IfElse.exe
+C:\Users\M\source\repos\5장\IfElse\bin\Debug\net6.0\IfElse.deps.json
+C:\Users\M\source\repos\5장\IfElse\bin\Debug\net6.0\IfElse.runtimeconfig.json
+C:\Users\M\source\repos\5장\IfElse\bin\Debug\net6.0\IfElse.dll
+C:\Users\M\source\repos\5장\IfElse\bin\Debug\net6.0\IfElse.pdb
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.AssemblyInfo.cs
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.dll
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\refint\IfElse.dll
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.pdb
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\IfElse.genruntimeconfig.cache
+C:\Users\M\source\repos\5장\IfElse\obj\Debug\net6.0\ref\IfElse.dll

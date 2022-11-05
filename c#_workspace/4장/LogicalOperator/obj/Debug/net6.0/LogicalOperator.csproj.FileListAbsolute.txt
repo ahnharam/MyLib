@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\4장\LogicalOperator\bin\Debug\net6.0\LogicalOperator.exe
+C:\Users\M\source\repos\4장\LogicalOperator\bin\Debug\net6.0\LogicalOperator.deps.json
+C:\Users\M\source\repos\4장\LogicalOperator\bin\Debug\net6.0\LogicalOperator.runtimeconfig.json
+C:\Users\M\source\repos\4장\LogicalOperator\bin\Debug\net6.0\LogicalOperator.dll
+C:\Users\M\source\repos\4장\LogicalOperator\bin\Debug\net6.0\LogicalOperator.pdb
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.AssemblyInfo.cs
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.dll
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\refint\LogicalOperator.dll
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.pdb
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\LogicalOperator.genruntimeconfig.cache
+C:\Users\M\source\repos\4장\LogicalOperator\obj\Debug\net6.0\ref\LogicalOperator.dll

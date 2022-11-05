@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\5장\SwitchExp\bin\Debug\net6.0\SwitchExp.exe
+C:\Users\M\source\repos\5장\SwitchExp\bin\Debug\net6.0\SwitchExp.deps.json
+C:\Users\M\source\repos\5장\SwitchExp\bin\Debug\net6.0\SwitchExp.runtimeconfig.json
+C:\Users\M\source\repos\5장\SwitchExp\bin\Debug\net6.0\SwitchExp.dll
+C:\Users\M\source\repos\5장\SwitchExp\bin\Debug\net6.0\SwitchExp.pdb
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.AssemblyInfo.cs
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.dll
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\refint\SwitchExp.dll
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.pdb
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\SwitchExp.genruntimeconfig.cache
+C:\Users\M\source\repos\5장\SwitchExp\obj\Debug\net6.0\ref\SwitchExp.dll

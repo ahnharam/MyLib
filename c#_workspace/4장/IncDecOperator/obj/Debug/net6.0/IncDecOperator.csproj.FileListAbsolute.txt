@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\4장\IncDecOperator\bin\Debug\net6.0\IncDecOperator.exe
+C:\Users\M\source\repos\4장\IncDecOperator\bin\Debug\net6.0\IncDecOperator.deps.json
+C:\Users\M\source\repos\4장\IncDecOperator\bin\Debug\net6.0\IncDecOperator.runtimeconfig.json
+C:\Users\M\source\repos\4장\IncDecOperator\bin\Debug\net6.0\IncDecOperator.dll
+C:\Users\M\source\repos\4장\IncDecOperator\bin\Debug\net6.0\IncDecOperator.pdb
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.AssemblyInfo.cs
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.dll
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\refint\IncDecOperator.dll
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.pdb
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\IncDecOperator.genruntimeconfig.cache
+C:\Users\M\source\repos\4장\IncDecOperator\obj\Debug\net6.0\ref\IncDecOperator.dll

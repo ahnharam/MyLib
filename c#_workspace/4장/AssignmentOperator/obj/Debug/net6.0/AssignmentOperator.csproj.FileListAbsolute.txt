@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\4장\AssignmentOperator\bin\Debug\net6.0\AssignmentOperator.exe
+C:\Users\M\source\repos\4장\AssignmentOperator\bin\Debug\net6.0\AssignmentOperator.deps.json
+C:\Users\M\source\repos\4장\AssignmentOperator\bin\Debug\net6.0\AssignmentOperator.runtimeconfig.json
+C:\Users\M\source\repos\4장\AssignmentOperator\bin\Debug\net6.0\AssignmentOperator.dll
+C:\Users\M\source\repos\4장\AssignmentOperator\bin\Debug\net6.0\AssignmentOperator.pdb
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.AssemblyInfo.cs
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.dll
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\refint\AssignmentOperator.dll
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.pdb
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\AssignmentOperator.genruntimeconfig.cache
+C:\Users\M\source\repos\4장\AssignmentOperator\obj\Debug\net6.0\ref\AssignmentOperator.dll

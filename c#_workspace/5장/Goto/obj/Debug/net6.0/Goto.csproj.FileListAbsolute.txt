@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\5장\Goto\bin\Debug\net6.0\Goto.exe
+C:\Users\M\source\repos\5장\Goto\bin\Debug\net6.0\Goto.deps.json
+C:\Users\M\source\repos\5장\Goto\bin\Debug\net6.0\Goto.runtimeconfig.json
+C:\Users\M\source\repos\5장\Goto\bin\Debug\net6.0\Goto.dll
+C:\Users\M\source\repos\5장\Goto\bin\Debug\net6.0\Goto.pdb
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.AssemblyInfo.cs
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.dll
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\refint\Goto.dll
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.pdb
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\Goto.genruntimeconfig.cache
+C:\Users\M\source\repos\5장\Goto\obj\Debug\net6.0\ref\Goto.dll

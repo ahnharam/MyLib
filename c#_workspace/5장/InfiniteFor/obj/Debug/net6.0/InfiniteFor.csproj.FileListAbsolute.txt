@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\5장\InfiniteFor\bin\Debug\net6.0\InfiniteFor.exe
+C:\Users\M\source\repos\5장\InfiniteFor\bin\Debug\net6.0\InfiniteFor.deps.json
+C:\Users\M\source\repos\5장\InfiniteFor\bin\Debug\net6.0\InfiniteFor.runtimeconfig.json
+C:\Users\M\source\repos\5장\InfiniteFor\bin\Debug\net6.0\InfiniteFor.dll
+C:\Users\M\source\repos\5장\InfiniteFor\bin\Debug\net6.0\InfiniteFor.pdb
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.AssemblyInfo.cs
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.dll
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\refint\InfiniteFor.dll
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.pdb
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\InfiniteFor.genruntimeconfig.cache
+C:\Users\M\source\repos\5장\InfiniteFor\obj\Debug\net6.0\ref\InfiniteFor.dll

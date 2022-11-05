@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\4장\Relationa10perator\bin\Debug\net6.0\RelationalOperator.exe
+C:\Users\M\source\repos\4장\Relationa10perator\bin\Debug\net6.0\RelationalOperator.deps.json
+C:\Users\M\source\repos\4장\Relationa10perator\bin\Debug\net6.0\RelationalOperator.runtimeconfig.json
+C:\Users\M\source\repos\4장\Relationa10perator\bin\Debug\net6.0\RelationalOperator.dll
+C:\Users\M\source\repos\4장\Relationa10perator\bin\Debug\net6.0\RelationalOperator.pdb
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.AssemblyInfo.cs
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.dll
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\refint\RelationalOperator.dll
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.pdb
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\RelationalOperator.genruntimeconfig.cache
+C:\Users\M\source\repos\4장\Relationa10perator\obj\Debug\net6.0\ref\RelationalOperator.dll

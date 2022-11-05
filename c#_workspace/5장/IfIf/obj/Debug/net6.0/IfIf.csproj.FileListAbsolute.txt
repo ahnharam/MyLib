@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.AssemblyInfo.cs
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\5장\IfIf\bin\Debug\net6.0\IfIf.exe
+C:\Users\M\source\repos\5장\IfIf\bin\Debug\net6.0\IfIf.deps.json
+C:\Users\M\source\repos\5장\IfIf\bin\Debug\net6.0\IfIf.runtimeconfig.json
+C:\Users\M\source\repos\5장\IfIf\bin\Debug\net6.0\IfIf.dll
+C:\Users\M\source\repos\5장\IfIf\bin\Debug\net6.0\IfIf.pdb
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.dll
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\refint\IfIf.dll
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.pdb
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\IfIf.genruntimeconfig.cache
+C:\Users\M\source\repos\5장\IfIf\obj\Debug\net6.0\ref\IfIf.dll

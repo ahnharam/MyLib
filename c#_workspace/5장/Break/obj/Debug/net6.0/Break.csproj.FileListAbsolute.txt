@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\5장\Break\bin\Debug\net6.0\Break.exe
+C:\Users\M\source\repos\5장\Break\bin\Debug\net6.0\Break.deps.json
+C:\Users\M\source\repos\5장\Break\bin\Debug\net6.0\Break.runtimeconfig.json
+C:\Users\M\source\repos\5장\Break\bin\Debug\net6.0\Break.dll
+C:\Users\M\source\repos\5장\Break\bin\Debug\net6.0\Break.pdb
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.AssemblyInfo.cs
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.dll
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\refint\Break.dll
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.pdb
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\Break.genruntimeconfig.cache
+C:\Users\M\source\repos\5장\Break\obj\Debug\net6.0\ref\Break.dll
