@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\6장\LocalFunction\bin\Debug\net6.0\LocalFunction.exe
+C:\Users\M\source\repos\6장\LocalFunction\bin\Debug\net6.0\LocalFunction.deps.json
+C:\Users\M\source\repos\6장\LocalFunction\bin\Debug\net6.0\LocalFunction.runtimeconfig.json
+C:\Users\M\source\repos\6장\LocalFunction\bin\Debug\net6.0\LocalFunction.dll
+C:\Users\M\source\repos\6장\LocalFunction\bin\Debug\net6.0\LocalFunction.pdb
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.AssemblyInfo.cs
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.dll
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\refint\LocalFunction.dll
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.pdb
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\LocalFunction.genruntimeconfig.cache
+C:\Users\M\source\repos\6장\LocalFunction\obj\Debug\net6.0\ref\LocalFunction.dll

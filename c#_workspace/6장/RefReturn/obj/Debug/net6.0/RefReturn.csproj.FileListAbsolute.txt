@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\6장\RefReturn\bin\Debug\net6.0\RefReturn.exe
+C:\Users\M\source\repos\6장\RefReturn\bin\Debug\net6.0\RefReturn.deps.json
+C:\Users\M\source\repos\6장\RefReturn\bin\Debug\net6.0\RefReturn.runtimeconfig.json
+C:\Users\M\source\repos\6장\RefReturn\bin\Debug\net6.0\RefReturn.dll
+C:\Users\M\source\repos\6장\RefReturn\bin\Debug\net6.0\RefReturn.pdb
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.AssemblyInfo.cs
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.dll
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\refint\RefReturn.dll
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.pdb
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\RefReturn.genruntimeconfig.cache
+C:\Users\M\source\repos\6장\RefReturn\obj\Debug\net6.0\ref\RefReturn.dll

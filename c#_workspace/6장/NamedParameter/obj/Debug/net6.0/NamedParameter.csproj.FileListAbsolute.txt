@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.AssemblyInfo.cs
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\6장\NamedParameter\bin\Debug\net6.0\NamedParameter.exe
+C:\Users\M\source\repos\6장\NamedParameter\bin\Debug\net6.0\NamedParameter.deps.json
+C:\Users\M\source\repos\6장\NamedParameter\bin\Debug\net6.0\NamedParameter.runtimeconfig.json
+C:\Users\M\source\repos\6장\NamedParameter\bin\Debug\net6.0\NamedParameter.dll
+C:\Users\M\source\repos\6장\NamedParameter\bin\Debug\net6.0\NamedParameter.pdb
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.dll
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\refint\NamedParameter.dll
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.pdb
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\NamedParameter.genruntimeconfig.cache
+C:\Users\M\source\repos\6장\NamedParameter\obj\Debug\net6.0\ref\NamedParameter.dll
