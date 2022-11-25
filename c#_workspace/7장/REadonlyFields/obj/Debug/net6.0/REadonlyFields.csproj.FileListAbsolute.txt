@@ -1,0 +1,5 @@
+C:\Users\M\source\repos\7장\REadonlyFields\obj\Debug\net6.0\REadonlyFields.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\7장\REadonlyFields\obj\Debug\net6.0\REadonlyFields.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\7장\REadonlyFields\obj\Debug\net6.0\REadonlyFields.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\7장\REadonlyFields\obj\Debug\net6.0\REadonlyFields.AssemblyInfo.cs
+C:\Users\M\source\repos\7장\REadonlyFields\obj\Debug\net6.0\REadonlyFields.csproj.CoreCompileInputs.cache

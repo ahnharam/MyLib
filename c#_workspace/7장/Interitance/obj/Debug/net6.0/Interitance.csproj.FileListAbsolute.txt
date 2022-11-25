@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\7장\Interitance\bin\Debug\net6.0\Interitance.exe
+C:\Users\M\source\repos\7장\Interitance\bin\Debug\net6.0\Interitance.deps.json
+C:\Users\M\source\repos\7장\Interitance\bin\Debug\net6.0\Interitance.runtimeconfig.json
+C:\Users\M\source\repos\7장\Interitance\bin\Debug\net6.0\Interitance.dll
+C:\Users\M\source\repos\7장\Interitance\bin\Debug\net6.0\Interitance.pdb
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.AssemblyInfo.cs
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.dll
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\refint\Interitance.dll
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.pdb
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\Interitance.genruntimeconfig.cache
+C:\Users\M\source\repos\7장\Interitance\obj\Debug\net6.0\ref\Interitance.dll

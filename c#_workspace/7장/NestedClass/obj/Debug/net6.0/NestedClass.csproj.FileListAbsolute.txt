@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.AssemblyInfo.cs
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\7장\NestedClass\bin\Debug\net6.0\NestedClass.exe
+C:\Users\M\source\repos\7장\NestedClass\bin\Debug\net6.0\NestedClass.deps.json
+C:\Users\M\source\repos\7장\NestedClass\bin\Debug\net6.0\NestedClass.runtimeconfig.json
+C:\Users\M\source\repos\7장\NestedClass\bin\Debug\net6.0\NestedClass.dll
+C:\Users\M\source\repos\7장\NestedClass\bin\Debug\net6.0\NestedClass.pdb
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.dll
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\refint\NestedClass.dll
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.pdb
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\NestedClass.genruntimeconfig.cache
+C:\Users\M\source\repos\7장\NestedClass\obj\Debug\net6.0\ref\NestedClass.dll

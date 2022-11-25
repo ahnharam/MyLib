@@ -1,0 +1,5 @@
+C:\Users\M\source\repos\7장\SealedMethod\obj\Debug\net6.0\SealedMethod.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\7장\SealedMethod\obj\Debug\net6.0\SealedMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\7장\SealedMethod\obj\Debug\net6.0\SealedMethod.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\7장\SealedMethod\obj\Debug\net6.0\SealedMethod.AssemblyInfo.cs
+C:\Users\M\source\repos\7장\SealedMethod\obj\Debug\net6.0\SealedMethod.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\7장\StaticField\bin\Debug\net6.0\StaticField.exe
+C:\Users\M\source\repos\7장\StaticField\bin\Debug\net6.0\StaticField.deps.json
+C:\Users\M\source\repos\7장\StaticField\bin\Debug\net6.0\StaticField.runtimeconfig.json
+C:\Users\M\source\repos\7장\StaticField\bin\Debug\net6.0\StaticField.dll
+C:\Users\M\source\repos\7장\StaticField\bin\Debug\net6.0\StaticField.pdb
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.AssemblyInfo.cs
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.dll
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\refint\StaticField.dll
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.pdb
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\StaticField.genruntimeconfig.cache
+C:\Users\M\source\repos\7장\StaticField\obj\Debug\net6.0\ref\StaticField.dll
