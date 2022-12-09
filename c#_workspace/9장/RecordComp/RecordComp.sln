@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordComp", "RecordComp.csproj", "{B174536C-D8ED-4B5B-ADAA-1FBC25087587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B174536C-D8ED-4B5B-ADAA-1FBC25087587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B174536C-D8ED-4B5B-ADAA-1FBC25087587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B174536C-D8ED-4B5B-ADAA-1FBC25087587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B174536C-D8ED-4B5B-ADAA-1FBC25087587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A6ECBA4-745D-42B3-A49A-0C8ACA558740}
+	EndGlobalSection
+EndGlobal

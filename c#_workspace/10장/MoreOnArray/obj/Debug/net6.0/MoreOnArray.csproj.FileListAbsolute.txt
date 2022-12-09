@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\MoreOnArray\bin\Debug\net6.0\MoreOnArray.exe
+C:\Users\M\source\repos\10장\MoreOnArray\bin\Debug\net6.0\MoreOnArray.deps.json
+C:\Users\M\source\repos\10장\MoreOnArray\bin\Debug\net6.0\MoreOnArray.runtimeconfig.json
+C:\Users\M\source\repos\10장\MoreOnArray\bin\Debug\net6.0\MoreOnArray.dll
+C:\Users\M\source\repos\10장\MoreOnArray\bin\Debug\net6.0\MoreOnArray.pdb
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.dll
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\refint\MoreOnArray.dll
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.pdb
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\MoreOnArray.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\MoreOnArray\obj\Debug\net6.0\ref\MoreOnArray.dll

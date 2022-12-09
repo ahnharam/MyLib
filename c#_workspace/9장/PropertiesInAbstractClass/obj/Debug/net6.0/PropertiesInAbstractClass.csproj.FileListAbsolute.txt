@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\bin\Debug\net6.0\PropertiesInAbstractClass.exe
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\bin\Debug\net6.0\PropertiesInAbstractClass.deps.json
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\bin\Debug\net6.0\PropertiesInAbstractClass.runtimeconfig.json
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\bin\Debug\net6.0\PropertiesInAbstractClass.dll
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\bin\Debug\net6.0\PropertiesInAbstractClass.pdb
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.AssemblyInfo.cs
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.dll
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\refint\PropertiesInAbstractClass.dll
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.pdb
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\PropertiesInAbstractClass.genruntimeconfig.cache
+C:\Users\M\source\repos\9장\PropertiesInAbstractClass\obj\Debug\net6.0\ref\PropertiesInAbstractClass.dll

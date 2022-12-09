@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\UsingQueue\bin\Debug\net6.0\UsingQueue.exe
+C:\Users\M\source\repos\10장\UsingQueue\bin\Debug\net6.0\UsingQueue.deps.json
+C:\Users\M\source\repos\10장\UsingQueue\bin\Debug\net6.0\UsingQueue.runtimeconfig.json
+C:\Users\M\source\repos\10장\UsingQueue\bin\Debug\net6.0\UsingQueue.dll
+C:\Users\M\source\repos\10장\UsingQueue\bin\Debug\net6.0\UsingQueue.pdb
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.dll
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\refint\UsingQueue.dll
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.pdb
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\UsingQueue.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\UsingQueue\obj\Debug\net6.0\ref\UsingQueue.dll

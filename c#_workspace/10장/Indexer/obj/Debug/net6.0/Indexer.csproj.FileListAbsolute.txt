@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\Indexer\bin\Debug\net6.0\Indexer.exe
+C:\Users\M\source\repos\10장\Indexer\bin\Debug\net6.0\Indexer.deps.json
+C:\Users\M\source\repos\10장\Indexer\bin\Debug\net6.0\Indexer.runtimeconfig.json
+C:\Users\M\source\repos\10장\Indexer\bin\Debug\net6.0\Indexer.dll
+C:\Users\M\source\repos\10장\Indexer\bin\Debug\net6.0\Indexer.pdb
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.dll
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\refint\Indexer.dll
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.pdb
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\Indexer.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\Indexer\obj\Debug\net6.0\ref\Indexer.dll

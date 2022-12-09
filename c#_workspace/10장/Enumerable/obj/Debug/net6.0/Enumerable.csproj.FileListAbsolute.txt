@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\Enumerable\bin\Debug\net6.0\Enumerable.exe
+C:\Users\M\source\repos\10장\Enumerable\bin\Debug\net6.0\Enumerable.deps.json
+C:\Users\M\source\repos\10장\Enumerable\bin\Debug\net6.0\Enumerable.runtimeconfig.json
+C:\Users\M\source\repos\10장\Enumerable\bin\Debug\net6.0\Enumerable.dll
+C:\Users\M\source\repos\10장\Enumerable\bin\Debug\net6.0\Enumerable.pdb
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.dll
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\refint\Enumerable.dll
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.pdb
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\Enumerable.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\Enumerable\obj\Debug\net6.0\ref\Enumerable.dll

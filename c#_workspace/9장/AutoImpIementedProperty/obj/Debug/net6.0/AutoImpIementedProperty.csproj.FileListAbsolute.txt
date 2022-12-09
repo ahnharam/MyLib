@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\bin\Debug\net6.0\AutoImpIementedProperty.exe
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\bin\Debug\net6.0\AutoImpIementedProperty.deps.json
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\bin\Debug\net6.0\AutoImpIementedProperty.runtimeconfig.json
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\bin\Debug\net6.0\AutoImpIementedProperty.dll
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\bin\Debug\net6.0\AutoImpIementedProperty.pdb
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.AssemblyInfo.cs
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.dll
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\refint\AutoImpIementedProperty.dll
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.pdb
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\AutoImpIementedProperty.genruntimeconfig.cache
+C:\Users\M\source\repos\9장\AutoImpIementedProperty\obj\Debug\net6.0\ref\AutoImpIementedProperty.dll

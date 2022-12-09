@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\InitializingCollections\bin\Debug\net6.0\InitializingCollections.exe
+C:\Users\M\source\repos\10장\InitializingCollections\bin\Debug\net6.0\InitializingCollections.deps.json
+C:\Users\M\source\repos\10장\InitializingCollections\bin\Debug\net6.0\InitializingCollections.runtimeconfig.json
+C:\Users\M\source\repos\10장\InitializingCollections\bin\Debug\net6.0\InitializingCollections.dll
+C:\Users\M\source\repos\10장\InitializingCollections\bin\Debug\net6.0\InitializingCollections.pdb
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.dll
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\refint\InitializingCollections.dll
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.pdb
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\InitializingCollections.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\InitializingCollections\obj\Debug\net6.0\ref\InitializingCollections.dll
