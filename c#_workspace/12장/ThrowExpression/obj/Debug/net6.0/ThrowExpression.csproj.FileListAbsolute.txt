@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\12장\ThrowExpression\bin\Debug\net6.0\ThrowExpression.exe
+C:\Users\M\source\repos\12장\ThrowExpression\bin\Debug\net6.0\ThrowExpression.deps.json
+C:\Users\M\source\repos\12장\ThrowExpression\bin\Debug\net6.0\ThrowExpression.runtimeconfig.json
+C:\Users\M\source\repos\12장\ThrowExpression\bin\Debug\net6.0\ThrowExpression.dll
+C:\Users\M\source\repos\12장\ThrowExpression\bin\Debug\net6.0\ThrowExpression.pdb
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.AssemblyInfo.cs
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.dll
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\refint\ThrowExpression.dll
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.pdb
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ThrowExpression.genruntimeconfig.cache
+C:\Users\M\source\repos\12장\ThrowExpression\obj\Debug\net6.0\ref\ThrowExpression.dll

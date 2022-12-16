@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\11장\EnumerableGeneric\bin\Debug\net6.0\EnumerableGeneric.exe
+C:\Users\M\source\repos\11장\EnumerableGeneric\bin\Debug\net6.0\EnumerableGeneric.deps.json
+C:\Users\M\source\repos\11장\EnumerableGeneric\bin\Debug\net6.0\EnumerableGeneric.runtimeconfig.json
+C:\Users\M\source\repos\11장\EnumerableGeneric\bin\Debug\net6.0\EnumerableGeneric.dll
+C:\Users\M\source\repos\11장\EnumerableGeneric\bin\Debug\net6.0\EnumerableGeneric.pdb
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.AssemblyInfo.cs
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.dll
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\refint\EnumerableGeneric.dll
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.pdb
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\EnumerableGeneric.genruntimeconfig.cache
+C:\Users\M\source\repos\11장\EnumerableGeneric\obj\Debug\net6.0\ref\EnumerableGeneric.dll

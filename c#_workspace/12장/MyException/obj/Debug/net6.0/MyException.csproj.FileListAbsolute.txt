@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\12장\MyException\bin\Debug\net6.0\MyException.exe
+C:\Users\M\source\repos\12장\MyException\bin\Debug\net6.0\MyException.deps.json
+C:\Users\M\source\repos\12장\MyException\bin\Debug\net6.0\MyException.runtimeconfig.json
+C:\Users\M\source\repos\12장\MyException\bin\Debug\net6.0\MyException.dll
+C:\Users\M\source\repos\12장\MyException\bin\Debug\net6.0\MyException.pdb
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.AssemblyInfo.cs
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.dll
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\refint\MyException.dll
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.pdb
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\MyException.genruntimeconfig.cache
+C:\Users\M\source\repos\12장\MyException\obj\Debug\net6.0\ref\MyException.dll

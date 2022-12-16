@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackTrace", "StackTrace.csproj", "{DBC63CE7-0F34-48FB-96FB-790099CBFFBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC63CE7-0F34-48FB-96FB-790099CBFFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC63CE7-0F34-48FB-96FB-790099CBFFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC63CE7-0F34-48FB-96FB-790099CBFFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC63CE7-0F34-48FB-96FB-790099CBFFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {176075AE-8D0B-475B-B9AE-5EFDDD82893B}
+	EndGlobalSection
+EndGlobal

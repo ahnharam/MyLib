@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\12장\Finally\bin\Debug\net6.0\Finally.exe
+C:\Users\M\source\repos\12장\Finally\bin\Debug\net6.0\Finally.deps.json
+C:\Users\M\source\repos\12장\Finally\bin\Debug\net6.0\Finally.runtimeconfig.json
+C:\Users\M\source\repos\12장\Finally\bin\Debug\net6.0\Finally.dll
+C:\Users\M\source\repos\12장\Finally\bin\Debug\net6.0\Finally.pdb
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.AssemblyInfo.cs
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.dll
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\refint\Finally.dll
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.pdb
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\Finally.genruntimeconfig.cache
+C:\Users\M\source\repos\12장\Finally\obj\Debug\net6.0\ref\Finally.dll
