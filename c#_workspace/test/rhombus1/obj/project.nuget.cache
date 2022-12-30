@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YQdtkrJuqM9URxwdEDiHnCOb3M90r3yFCAwHgELRpoOT5ZvoFt8GxCMvcxyOQkvPKwdAr5cMARrHJ0MdFbHesw==",
+  "dgSpecHash": "mH7eopAPg/jh9GBJXzqxQg+AXJFUvE7D6N0d0WsW8Tqh9YnMy8IAddknoOoKnvccZTwHxDn3zNnF5rZZxirHfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\M\\source\\repos\\12장\\rhombus1\\rhombus1.csproj",
+  "projectFilePath": "C:\\Users\\M\\Documents\\MyLib\\c#_workspace\\test\\rhombus1\\rhombus1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

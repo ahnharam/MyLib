@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.AssemblyInfo.cs
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\13장\GenericDelegate\bin\Debug\net6.0\GenericDelegate.exe
+C:\Users\M\source\repos\13장\GenericDelegate\bin\Debug\net6.0\GenericDelegate.deps.json
+C:\Users\M\source\repos\13장\GenericDelegate\bin\Debug\net6.0\GenericDelegate.runtimeconfig.json
+C:\Users\M\source\repos\13장\GenericDelegate\bin\Debug\net6.0\GenericDelegate.dll
+C:\Users\M\source\repos\13장\GenericDelegate\bin\Debug\net6.0\GenericDelegate.pdb
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.dll
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\refint\GenericDelegate.dll
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.pdb
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\GenericDelegate.genruntimeconfig.cache
+C:\Users\M\source\repos\13장\GenericDelegate\obj\Debug\net6.0\ref\GenericDelegate.dll

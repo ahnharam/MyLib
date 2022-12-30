@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\M\\source\\repos\\12장\\rhombus1\\rhombus1.csproj": {}
+    "C:\\Users\\M\\Documents\\MyLib\\c#_workspace\\test\\rhombus1\\rhombus1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\M\\source\\repos\\12장\\rhombus1\\rhombus1.csproj": {
+    "C:\\Users\\M\\Documents\\MyLib\\c#_workspace\\test\\rhombus1\\rhombus1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M\\source\\repos\\12장\\rhombus1\\rhombus1.csproj",
+        "projectUniqueName": "C:\\Users\\M\\Documents\\MyLib\\c#_workspace\\test\\rhombus1\\rhombus1.csproj",
         "projectName": "rhombus1",
-        "projectPath": "C:\\Users\\M\\source\\repos\\12장\\rhombus1\\rhombus1.csproj",
+        "projectPath": "C:\\Users\\M\\Documents\\MyLib\\c#_workspace\\test\\rhombus1\\rhombus1.csproj",
         "packagesPath": "C:\\Users\\M\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M\\source\\repos\\12장\\rhombus1\\obj\\",
+        "outputPath": "C:\\Users\\M\\Documents\\MyLib\\c#_workspace\\test\\rhombus1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\M\\AppData\\Roaming\\NuGet\\NuGet.Config",
