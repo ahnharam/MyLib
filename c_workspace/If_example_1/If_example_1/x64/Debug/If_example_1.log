@@ -1,0 +1,3 @@
+﻿  If_example_1.cpp
+D:\GitFolder\c_workspace\If_example_1\If_example_1\If_example_1.cpp(4,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  If_example_1.vcxproj -> D:\GitFolder\c_workspace\If_example_1\x64\Debug\If_example_1.exe
