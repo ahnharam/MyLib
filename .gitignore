@@ -1,2 +1,6 @@
 c_workspace/
 .metadata
+.classpath
+.project
+.settings
+bin
