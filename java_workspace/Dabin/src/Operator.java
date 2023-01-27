@@ -79,7 +79,7 @@ public class Operator {
 		
 		// 조건연산자 (삼항연산자)
 		// 비교 ? true일때 : false일때
-		(a < b) ? System.out.println("true"); : System.out.println("false");
+		//(a < b) ? System.out.println("true"); : System.out.println("false");
 		
 		// 대입연산자 
 		// = 
