@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\9장\ConstructorWithProperty\bin\Debug\net6.0\ConstructorWithProperty.exe
+C:\Users\M\source\repos\9장\ConstructorWithProperty\bin\Debug\net6.0\ConstructorWithProperty.deps.json
+C:\Users\M\source\repos\9장\ConstructorWithProperty\bin\Debug\net6.0\ConstructorWithProperty.runtimeconfig.json
+C:\Users\M\source\repos\9장\ConstructorWithProperty\bin\Debug\net6.0\ConstructorWithProperty.dll
+C:\Users\M\source\repos\9장\ConstructorWithProperty\bin\Debug\net6.0\ConstructorWithProperty.pdb
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.AssemblyInfo.cs
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.dll
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\refint\ConstructorWithProperty.dll
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.pdb
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ConstructorWithProperty.genruntimeconfig.cache
+C:\Users\M\source\repos\9장\ConstructorWithProperty\obj\Debug\net6.0\ref\ConstructorWithProperty.dll

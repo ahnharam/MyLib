@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\7장\DeepCopy\bin\Debug\net6.0\DeepCopy.exe
+C:\Users\M\source\repos\7장\DeepCopy\bin\Debug\net6.0\DeepCopy.deps.json
+C:\Users\M\source\repos\7장\DeepCopy\bin\Debug\net6.0\DeepCopy.runtimeconfig.json
+C:\Users\M\source\repos\7장\DeepCopy\bin\Debug\net6.0\DeepCopy.dll
+C:\Users\M\source\repos\7장\DeepCopy\bin\Debug\net6.0\DeepCopy.pdb
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.AssemblyInfo.cs
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.dll
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\refint\DeepCopy.dll
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.pdb
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\DeepCopy.genruntimeconfig.cache
+C:\Users\M\source\repos\7장\DeepCopy\obj\Debug\net6.0\ref\DeepCopy.dll

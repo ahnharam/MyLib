@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\6장\UsingOut\bin\Debug\net6.0\UsingOut.exe
+C:\Users\M\source\repos\6장\UsingOut\bin\Debug\net6.0\UsingOut.deps.json
+C:\Users\M\source\repos\6장\UsingOut\bin\Debug\net6.0\UsingOut.runtimeconfig.json
+C:\Users\M\source\repos\6장\UsingOut\bin\Debug\net6.0\UsingOut.dll
+C:\Users\M\source\repos\6장\UsingOut\bin\Debug\net6.0\UsingOut.pdb
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.AssemblyInfo.cs
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.dll
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\refint\UsingOut.dll
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.pdb
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\UsingOut.genruntimeconfig.cache
+C:\Users\M\source\repos\6장\UsingOut\obj\Debug\net6.0\ref\UsingOut.dll

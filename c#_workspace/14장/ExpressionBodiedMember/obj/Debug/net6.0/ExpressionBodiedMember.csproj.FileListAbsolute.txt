@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\bin\Debug\net6.0\ExpressionBodiedMember.exe
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\bin\Debug\net6.0\ExpressionBodiedMember.deps.json
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\bin\Debug\net6.0\ExpressionBodiedMember.runtimeconfig.json
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\bin\Debug\net6.0\ExpressionBodiedMember.dll
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\bin\Debug\net6.0\ExpressionBodiedMember.pdb
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.AssemblyInfo.cs
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.dll
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\refint\ExpressionBodiedMember.dll
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.pdb
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ExpressionBodiedMember.genruntimeconfig.cache
+C:\Users\M\source\repos\14장\ExpressionBodiedMember\obj\Debug\net6.0\ref\ExpressionBodiedMember.dll

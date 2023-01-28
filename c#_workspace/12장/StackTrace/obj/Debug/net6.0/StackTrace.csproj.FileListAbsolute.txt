@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\12장\StackTrace\bin\Debug\net6.0\StackTrace.exe
+C:\Users\M\source\repos\12장\StackTrace\bin\Debug\net6.0\StackTrace.deps.json
+C:\Users\M\source\repos\12장\StackTrace\bin\Debug\net6.0\StackTrace.runtimeconfig.json
+C:\Users\M\source\repos\12장\StackTrace\bin\Debug\net6.0\StackTrace.dll
+C:\Users\M\source\repos\12장\StackTrace\bin\Debug\net6.0\StackTrace.pdb
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.AssemblyInfo.cs
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.dll
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\refint\StackTrace.dll
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.pdb
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\StackTrace.genruntimeconfig.cache
+C:\Users\M\source\repos\12장\StackTrace\obj\Debug\net6.0\ref\StackTrace.dll

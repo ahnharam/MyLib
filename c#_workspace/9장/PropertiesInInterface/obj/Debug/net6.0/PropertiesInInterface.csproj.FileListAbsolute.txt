@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\9장\PropertiesInInterface\bin\Debug\net6.0\PropertiesInInterface.exe
+C:\Users\M\source\repos\9장\PropertiesInInterface\bin\Debug\net6.0\PropertiesInInterface.deps.json
+C:\Users\M\source\repos\9장\PropertiesInInterface\bin\Debug\net6.0\PropertiesInInterface.runtimeconfig.json
+C:\Users\M\source\repos\9장\PropertiesInInterface\bin\Debug\net6.0\PropertiesInInterface.dll
+C:\Users\M\source\repos\9장\PropertiesInInterface\bin\Debug\net6.0\PropertiesInInterface.pdb
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.AssemblyInfo.cs
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.dll
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\refint\PropertiesInInterface.dll
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.pdb
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\PropertiesInInterface.genruntimeconfig.cache
+C:\Users\M\source\repos\9장\PropertiesInInterface\obj\Debug\net6.0\ref\PropertiesInInterface.dll

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\9장\WithExp\bin\Debug\net6.0\WithExp.exe
+C:\Users\M\source\repos\9장\WithExp\bin\Debug\net6.0\WithExp.deps.json
+C:\Users\M\source\repos\9장\WithExp\bin\Debug\net6.0\WithExp.runtimeconfig.json
+C:\Users\M\source\repos\9장\WithExp\bin\Debug\net6.0\WithExp.dll
+C:\Users\M\source\repos\9장\WithExp\bin\Debug\net6.0\WithExp.pdb
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.AssemblyInfo.cs
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.dll
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\refint\WithExp.dll
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.pdb
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\WithExp.genruntimeconfig.cache
+C:\Users\M\source\repos\9장\WithExp\obj\Debug\net6.0\ref\WithExp.dll

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\InitializingArray\bin\Debug\net6.0\InitializingArray.exe
+C:\Users\M\source\repos\10장\InitializingArray\bin\Debug\net6.0\InitializingArray.deps.json
+C:\Users\M\source\repos\10장\InitializingArray\bin\Debug\net6.0\InitializingArray.runtimeconfig.json
+C:\Users\M\source\repos\10장\InitializingArray\bin\Debug\net6.0\InitializingArray.dll
+C:\Users\M\source\repos\10장\InitializingArray\bin\Debug\net6.0\InitializingArray.pdb
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.dll
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\refint\InitializingArray.dll
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.pdb
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\InitializingArray.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\InitializingArray\obj\Debug\net6.0\ref\InitializingArray.dll

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.AssemblyInfo.cs
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\6장\SwapByValue\bin\Debug\net6.0\SwapByValue.exe
+C:\Users\M\source\repos\6장\SwapByValue\bin\Debug\net6.0\SwapByValue.deps.json
+C:\Users\M\source\repos\6장\SwapByValue\bin\Debug\net6.0\SwapByValue.runtimeconfig.json
+C:\Users\M\source\repos\6장\SwapByValue\bin\Debug\net6.0\SwapByValue.dll
+C:\Users\M\source\repos\6장\SwapByValue\bin\Debug\net6.0\SwapByValue.pdb
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.dll
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\refint\SwapByValue.dll
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.pdb
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\SwapByValue.genruntimeconfig.cache
+C:\Users\M\source\repos\6장\SwapByValue\obj\Debug\net6.0\ref\SwapByValue.dll

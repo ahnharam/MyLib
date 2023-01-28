@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\5장\For\bin\Debug\net6.0\For.exe
+C:\Users\M\source\repos\5장\For\bin\Debug\net6.0\For.deps.json
+C:\Users\M\source\repos\5장\For\bin\Debug\net6.0\For.runtimeconfig.json
+C:\Users\M\source\repos\5장\For\bin\Debug\net6.0\For.dll
+C:\Users\M\source\repos\5장\For\bin\Debug\net6.0\For.pdb
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.AssemblyInfo.cs
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.dll
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\refint\For.dll
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.pdb
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\For.genruntimeconfig.cache
+C:\Users\M\source\repos\5장\For\obj\Debug\net6.0\ref\For.dll

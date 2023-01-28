@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\9장\RecordComp\bin\Debug\net6.0\RecordComp.exe
+C:\Users\M\source\repos\9장\RecordComp\bin\Debug\net6.0\RecordComp.deps.json
+C:\Users\M\source\repos\9장\RecordComp\bin\Debug\net6.0\RecordComp.runtimeconfig.json
+C:\Users\M\source\repos\9장\RecordComp\bin\Debug\net6.0\RecordComp.dll
+C:\Users\M\source\repos\9장\RecordComp\bin\Debug\net6.0\RecordComp.pdb
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.AssemblyInfo.cs
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.dll
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\refint\RecordComp.dll
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.pdb
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\RecordComp.genruntimeconfig.cache
+C:\Users\M\source\repos\9장\RecordComp\obj\Debug\net6.0\ref\RecordComp.dll

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\6장\Return\bin\Debug\net6.0\Return.exe
+C:\Users\M\source\repos\6장\Return\bin\Debug\net6.0\Return.deps.json
+C:\Users\M\source\repos\6장\Return\bin\Debug\net6.0\Return.runtimeconfig.json
+C:\Users\M\source\repos\6장\Return\bin\Debug\net6.0\Return.dll
+C:\Users\M\source\repos\6장\Return\bin\Debug\net6.0\Return.pdb
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.AssemblyInfo.cs
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.dll
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\refint\Return.dll
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.pdb
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\Return.genruntimeconfig.cache
+C:\Users\M\source\repos\6장\Return\obj\Debug\net6.0\ref\Return.dll

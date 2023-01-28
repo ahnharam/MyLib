@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\11장\UsingDictionary\bin\Debug\net6.0\UsingDictionary.exe
+C:\Users\M\source\repos\11장\UsingDictionary\bin\Debug\net6.0\UsingDictionary.deps.json
+C:\Users\M\source\repos\11장\UsingDictionary\bin\Debug\net6.0\UsingDictionary.runtimeconfig.json
+C:\Users\M\source\repos\11장\UsingDictionary\bin\Debug\net6.0\UsingDictionary.dll
+C:\Users\M\source\repos\11장\UsingDictionary\bin\Debug\net6.0\UsingDictionary.pdb
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.AssemblyInfo.cs
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.dll
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\refint\UsingDictionary.dll
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.pdb
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\UsingDictionary.genruntimeconfig.cache
+C:\Users\M\source\repos\11장\UsingDictionary\obj\Debug\net6.0\ref\UsingDictionary.dll

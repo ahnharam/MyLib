@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.AssemblyInfo.cs
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\ConsoleApp27\bin\Debug\net6.0\ConsoleApp27.exe
+C:\Users\M\source\repos\ConsoleApp27\bin\Debug\net6.0\ConsoleApp27.deps.json
+C:\Users\M\source\repos\ConsoleApp27\bin\Debug\net6.0\ConsoleApp27.runtimeconfig.json
+C:\Users\M\source\repos\ConsoleApp27\bin\Debug\net6.0\ConsoleApp27.dll
+C:\Users\M\source\repos\ConsoleApp27\bin\Debug\net6.0\ConsoleApp27.pdb
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.dll
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\refint\ConsoleApp27.dll
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.pdb
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ConsoleApp27.genruntimeconfig.cache
+C:\Users\M\source\repos\ConsoleApp27\obj\Debug\net6.0\ref\ConsoleApp27.dll

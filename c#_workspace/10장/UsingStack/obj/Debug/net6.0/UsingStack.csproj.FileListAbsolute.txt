@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\UsingStack\bin\Debug\net6.0\UsingStack.exe
+C:\Users\M\source\repos\10장\UsingStack\bin\Debug\net6.0\UsingStack.deps.json
+C:\Users\M\source\repos\10장\UsingStack\bin\Debug\net6.0\UsingStack.runtimeconfig.json
+C:\Users\M\source\repos\10장\UsingStack\bin\Debug\net6.0\UsingStack.dll
+C:\Users\M\source\repos\10장\UsingStack\bin\Debug\net6.0\UsingStack.pdb
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.dll
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\refint\UsingStack.dll
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.pdb
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\UsingStack.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\UsingStack\obj\Debug\net6.0\ref\UsingStack.dll

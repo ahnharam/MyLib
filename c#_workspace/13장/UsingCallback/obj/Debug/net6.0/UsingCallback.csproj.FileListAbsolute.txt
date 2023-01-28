@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\13장\UsingCallback\bin\Debug\net6.0\UsingCallback.exe
+C:\Users\M\source\repos\13장\UsingCallback\bin\Debug\net6.0\UsingCallback.deps.json
+C:\Users\M\source\repos\13장\UsingCallback\bin\Debug\net6.0\UsingCallback.runtimeconfig.json
+C:\Users\M\source\repos\13장\UsingCallback\bin\Debug\net6.0\UsingCallback.dll
+C:\Users\M\source\repos\13장\UsingCallback\bin\Debug\net6.0\UsingCallback.pdb
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.AssemblyInfo.cs
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.dll
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\refint\UsingCallback.dll
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.pdb
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\UsingCallback.genruntimeconfig.cache
+C:\Users\M\source\repos\13장\UsingCallback\obj\Debug\net6.0\ref\UsingCallback.dll

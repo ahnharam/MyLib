@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\11장\UsingGenericList\bin\Debug\net6.0\UsingGenericList.exe
+C:\Users\M\source\repos\11장\UsingGenericList\bin\Debug\net6.0\UsingGenericList.deps.json
+C:\Users\M\source\repos\11장\UsingGenericList\bin\Debug\net6.0\UsingGenericList.runtimeconfig.json
+C:\Users\M\source\repos\11장\UsingGenericList\bin\Debug\net6.0\UsingGenericList.dll
+C:\Users\M\source\repos\11장\UsingGenericList\bin\Debug\net6.0\UsingGenericList.pdb
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.AssemblyInfo.cs
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.dll
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\refint\UsingGenericList.dll
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.pdb
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\UsingGenericList.genruntimeconfig.cache
+C:\Users\M\source\repos\11장\UsingGenericList\obj\Debug\net6.0\ref\UsingGenericList.dll

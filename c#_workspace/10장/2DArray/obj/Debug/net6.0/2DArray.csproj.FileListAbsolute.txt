@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\2DArray\bin\Debug\net6.0\2DArray.exe
+C:\Users\M\source\repos\10장\2DArray\bin\Debug\net6.0\2DArray.deps.json
+C:\Users\M\source\repos\10장\2DArray\bin\Debug\net6.0\2DArray.runtimeconfig.json
+C:\Users\M\source\repos\10장\2DArray\bin\Debug\net6.0\2DArray.dll
+C:\Users\M\source\repos\10장\2DArray\bin\Debug\net6.0\2DArray.pdb
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.dll
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\refint\2DArray.dll
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.pdb
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\2DArray.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\2DArray\obj\Debug\net6.0\ref\2DArray.dll

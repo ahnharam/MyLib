@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\6장\UsingParams\bin\Debug\net6.0\UsingParams.exe
+C:\Users\M\source\repos\6장\UsingParams\bin\Debug\net6.0\UsingParams.deps.json
+C:\Users\M\source\repos\6장\UsingParams\bin\Debug\net6.0\UsingParams.runtimeconfig.json
+C:\Users\M\source\repos\6장\UsingParams\bin\Debug\net6.0\UsingParams.dll
+C:\Users\M\source\repos\6장\UsingParams\bin\Debug\net6.0\UsingParams.pdb
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.AssemblyInfo.cs
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.dll
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\refint\UsingParams.dll
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.pdb
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\UsingParams.genruntimeconfig.cache
+C:\Users\M\source\repos\6장\UsingParams\obj\Debug\net6.0\ref\UsingParams.dll

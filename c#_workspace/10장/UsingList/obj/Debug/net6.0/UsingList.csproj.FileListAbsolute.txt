@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\UsingList\bin\Debug\net6.0\UsingList.exe
+C:\Users\M\source\repos\10장\UsingList\bin\Debug\net6.0\UsingList.deps.json
+C:\Users\M\source\repos\10장\UsingList\bin\Debug\net6.0\UsingList.runtimeconfig.json
+C:\Users\M\source\repos\10장\UsingList\bin\Debug\net6.0\UsingList.dll
+C:\Users\M\source\repos\10장\UsingList\bin\Debug\net6.0\UsingList.pdb
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.dll
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\refint\UsingList.dll
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.pdb
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\UsingList.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\UsingList\obj\Debug\net6.0\ref\UsingList.dll

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\13장\EventTest\bin\Debug\net6.0\EventTest.exe
+C:\Users\M\source\repos\13장\EventTest\bin\Debug\net6.0\EventTest.deps.json
+C:\Users\M\source\repos\13장\EventTest\bin\Debug\net6.0\EventTest.runtimeconfig.json
+C:\Users\M\source\repos\13장\EventTest\bin\Debug\net6.0\EventTest.dll
+C:\Users\M\source\repos\13장\EventTest\bin\Debug\net6.0\EventTest.pdb
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.AssemblyInfo.cs
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.dll
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\refint\EventTest.dll
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.pdb
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\EventTest.genruntimeconfig.cache
+C:\Users\M\source\repos\13장\EventTest\obj\Debug\net6.0\ref\EventTest.dll

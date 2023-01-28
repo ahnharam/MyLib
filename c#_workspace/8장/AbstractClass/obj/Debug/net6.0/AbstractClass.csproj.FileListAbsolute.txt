@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.AssemblyInfo.cs
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\8장\AbstractClass\bin\Debug\net6.0\AbstractClass.exe
+C:\Users\M\source\repos\8장\AbstractClass\bin\Debug\net6.0\AbstractClass.deps.json
+C:\Users\M\source\repos\8장\AbstractClass\bin\Debug\net6.0\AbstractClass.runtimeconfig.json
+C:\Users\M\source\repos\8장\AbstractClass\bin\Debug\net6.0\AbstractClass.dll
+C:\Users\M\source\repos\8장\AbstractClass\bin\Debug\net6.0\AbstractClass.pdb
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.dll
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\refint\AbstractClass.dll
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.pdb
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\AbstractClass.genruntimeconfig.cache
+C:\Users\M\source\repos\8장\AbstractClass\obj\Debug\net6.0\ref\AbstractClass.dll

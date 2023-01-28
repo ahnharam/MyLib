@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\14장\StatementLambda\bin\Debug\net6.0\StatementLambda.exe
+C:\Users\M\source\repos\14장\StatementLambda\bin\Debug\net6.0\StatementLambda.deps.json
+C:\Users\M\source\repos\14장\StatementLambda\bin\Debug\net6.0\StatementLambda.runtimeconfig.json
+C:\Users\M\source\repos\14장\StatementLambda\bin\Debug\net6.0\StatementLambda.dll
+C:\Users\M\source\repos\14장\StatementLambda\bin\Debug\net6.0\StatementLambda.pdb
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.AssemblyInfo.cs
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.dll
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\refint\StatementLambda.dll
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.pdb
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\StatementLambda.genruntimeconfig.cache
+C:\Users\M\source\repos\14장\StatementLambda\obj\Debug\net6.0\ref\StatementLambda.dll

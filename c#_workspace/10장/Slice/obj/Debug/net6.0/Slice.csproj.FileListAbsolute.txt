@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\10장\Slice\bin\Debug\net6.0\Slice.exe
+C:\Users\M\source\repos\10장\Slice\bin\Debug\net6.0\Slice.deps.json
+C:\Users\M\source\repos\10장\Slice\bin\Debug\net6.0\Slice.runtimeconfig.json
+C:\Users\M\source\repos\10장\Slice\bin\Debug\net6.0\Slice.dll
+C:\Users\M\source\repos\10장\Slice\bin\Debug\net6.0\Slice.pdb
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.AssemblyInfo.cs
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.dll
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\refint\Slice.dll
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.pdb
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\Slice.genruntimeconfig.cache
+C:\Users\M\source\repos\10장\Slice\obj\Debug\net6.0\ref\Slice.dll

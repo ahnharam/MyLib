@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\7장\PositionalPattern\bin\Debug\net6.0\PositionalPattern.exe
+C:\Users\M\source\repos\7장\PositionalPattern\bin\Debug\net6.0\PositionalPattern.deps.json
+C:\Users\M\source\repos\7장\PositionalPattern\bin\Debug\net6.0\PositionalPattern.runtimeconfig.json
+C:\Users\M\source\repos\7장\PositionalPattern\bin\Debug\net6.0\PositionalPattern.dll
+C:\Users\M\source\repos\7장\PositionalPattern\bin\Debug\net6.0\PositionalPattern.pdb
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.AssemblyInfo.cs
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.dll
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\refint\PositionalPattern.dll
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.pdb
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\PositionalPattern.genruntimeconfig.cache
+C:\Users\M\source\repos\7장\PositionalPattern\obj\Debug\net6.0\ref\PositionalPattern.dll

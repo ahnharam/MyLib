@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\13장\AnonymousMethod\bin\Debug\net6.0\AnonymousMethod.exe
+C:\Users\M\source\repos\13장\AnonymousMethod\bin\Debug\net6.0\AnonymousMethod.deps.json
+C:\Users\M\source\repos\13장\AnonymousMethod\bin\Debug\net6.0\AnonymousMethod.runtimeconfig.json
+C:\Users\M\source\repos\13장\AnonymousMethod\bin\Debug\net6.0\AnonymousMethod.dll
+C:\Users\M\source\repos\13장\AnonymousMethod\bin\Debug\net6.0\AnonymousMethod.pdb
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.AssemblyInfo.cs
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.dll
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\refint\AnonymousMethod.dll
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.pdb
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\AnonymousMethod.genruntimeconfig.cache
+C:\Users\M\source\repos\13장\AnonymousMethod\obj\Debug\net6.0\ref\AnonymousMethod.dll

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\14장\ActionTest\bin\Debug\net6.0\ActionTest.exe
+C:\Users\M\source\repos\14장\ActionTest\bin\Debug\net6.0\ActionTest.deps.json
+C:\Users\M\source\repos\14장\ActionTest\bin\Debug\net6.0\ActionTest.runtimeconfig.json
+C:\Users\M\source\repos\14장\ActionTest\bin\Debug\net6.0\ActionTest.dll
+C:\Users\M\source\repos\14장\ActionTest\bin\Debug\net6.0\ActionTest.pdb
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.AssemblyInfo.cs
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.dll
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\refint\ActionTest.dll
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.pdb
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ActionTest.genruntimeconfig.cache
+C:\Users\M\source\repos\14장\ActionTest\obj\Debug\net6.0\ref\ActionTest.dll

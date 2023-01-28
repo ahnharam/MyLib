@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.AssemblyInfo.cs
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\9장\InitOnly\bin\Debug\net6.0\InitOnly.exe
+C:\Users\M\source\repos\9장\InitOnly\bin\Debug\net6.0\InitOnly.deps.json
+C:\Users\M\source\repos\9장\InitOnly\bin\Debug\net6.0\InitOnly.runtimeconfig.json
+C:\Users\M\source\repos\9장\InitOnly\bin\Debug\net6.0\InitOnly.dll
+C:\Users\M\source\repos\9장\InitOnly\bin\Debug\net6.0\InitOnly.pdb
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.dll
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\refint\InitOnly.dll
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.pdb
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\InitOnly.genruntimeconfig.cache
+C:\Users\M\source\repos\9장\InitOnly\obj\Debug\net6.0\ref\InitOnly.dll

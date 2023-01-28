@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\bin\Debug\net6.0\ExpressionTreeViaLambda.exe
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\bin\Debug\net6.0\ExpressionTreeViaLambda.deps.json
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\bin\Debug\net6.0\ExpressionTreeViaLambda.runtimeconfig.json
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\bin\Debug\net6.0\ExpressionTreeViaLambda.dll
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\bin\Debug\net6.0\ExpressionTreeViaLambda.pdb
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.AssemblyInfo.cs
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.dll
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\refint\ExpressionTreeViaLambda.dll
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.pdb
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ExpressionTreeViaLambda.genruntimeconfig.cache
+C:\Users\M\source\repos\14장\ExpressionTreeViaLambda\obj\Debug\net6.0\ref\ExpressionTreeViaLambda.dll

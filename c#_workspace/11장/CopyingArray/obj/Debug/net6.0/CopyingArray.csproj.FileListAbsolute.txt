@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\11장\CopyingArray\bin\Debug\net6.0\CopyingArray.exe
+C:\Users\M\source\repos\11장\CopyingArray\bin\Debug\net6.0\CopyingArray.deps.json
+C:\Users\M\source\repos\11장\CopyingArray\bin\Debug\net6.0\CopyingArray.runtimeconfig.json
+C:\Users\M\source\repos\11장\CopyingArray\bin\Debug\net6.0\CopyingArray.dll
+C:\Users\M\source\repos\11장\CopyingArray\bin\Debug\net6.0\CopyingArray.pdb
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.AssemblyInfo.cs
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.dll
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\refint\CopyingArray.dll
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.pdb
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\CopyingArray.genruntimeconfig.cache
+C:\Users\M\source\repos\11장\CopyingArray\obj\Debug\net6.0\ref\CopyingArray.dll

@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\12장\Throw\bin\Debug\net6.0\Throw.exe
+C:\Users\M\source\repos\12장\Throw\bin\Debug\net6.0\Throw.deps.json
+C:\Users\M\source\repos\12장\Throw\bin\Debug\net6.0\Throw.runtimeconfig.json
+C:\Users\M\source\repos\12장\Throw\bin\Debug\net6.0\Throw.dll
+C:\Users\M\source\repos\12장\Throw\bin\Debug\net6.0\Throw.pdb
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.AssemblyInfo.cs
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.dll
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\refint\Throw.dll
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.pdb
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\Throw.genruntimeconfig.cache
+C:\Users\M\source\repos\12장\Throw\obj\Debug\net6.0\ref\Throw.dll

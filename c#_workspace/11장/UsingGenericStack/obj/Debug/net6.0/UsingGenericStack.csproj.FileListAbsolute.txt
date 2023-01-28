@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\11장\UsingGenericStack\bin\Debug\net6.0\UsingGenericStack.exe
+C:\Users\M\source\repos\11장\UsingGenericStack\bin\Debug\net6.0\UsingGenericStack.deps.json
+C:\Users\M\source\repos\11장\UsingGenericStack\bin\Debug\net6.0\UsingGenericStack.runtimeconfig.json
+C:\Users\M\source\repos\11장\UsingGenericStack\bin\Debug\net6.0\UsingGenericStack.dll
+C:\Users\M\source\repos\11장\UsingGenericStack\bin\Debug\net6.0\UsingGenericStack.pdb
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.AssemblyInfo.cs
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.dll
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\refint\UsingGenericStack.dll
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.pdb
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\UsingGenericStack.genruntimeconfig.cache
+C:\Users\M\source\repos\11장\UsingGenericStack\obj\Debug\net6.0\ref\UsingGenericStack.dll
