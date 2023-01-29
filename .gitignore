@@ -2,3 +2,5 @@ x64
 java_workspace/
 *.filters
 workspace/
+Debug
+.vs
