@@ -10,8 +10,16 @@
  * 
  */
 
-public class ClassExample1 {
+
+
+// 접근한정자		class		이름(클래스 헤더)
+public 			class 		ClassExample1 {
 	
+	// 멤버필드 or 전역변수
+	// 상수 / 메모리 고정
+	public static final int num = 10;
+	
+	// 변수
 	String age;
 
 	// 메인 (메소드)
@@ -28,11 +36,24 @@ public class ClassExample1 {
 	
 //	접근한정자	스태틱한정자	리턴값의형식	이름		매개변수  (매개변수타입	매개변수이름)
 	public 	static 		void 		main(			String[] 	args	) {
+		
+		// 지역변수 / 멤버변수
 		int age = 10;
-		String a = test1(age);
+		
+
+		System.out.println(ClassExample1.num);
+		
+		// 클래스 타입		이름			 새로만든다	ClassExample1 이 친구로
+		// 인스턴스화 
+		ClassExample1 	c1 		=	 new 		ClassExample1();
+		
+		// c1 - 인스턴스
+		
+		c1.age = "hello";
+
+		String a = c1.test1(10);
 		
 		System.out.println(a);
-		
 	}
 	
 /*
@@ -46,11 +67,14 @@ public class ClassExample1 {
  * 
  */
 	
-	private static String test1(int age) {
+	// 멤버메소드  
+	// 한정자		반환자 타입	이름		파라미터
+	private 	String 		test1	(int age) {
 		return "안녕" + age;
 	}
-	
-	// 그외 메소드
-	
-	
+	  
+	// 한정자		반환자 타입	이름		파라미터
+	private 	int 		test2	(int age) {
+		return age;
+	}
 }
