@@ -21,3 +21,5 @@ Debug
 *.wsuo
 obj
 .env
+*config.py
+*config.cpython*

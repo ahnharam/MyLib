@@ -3,6 +3,7 @@ from discord.ext import commands
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime, timedelta
 from discord.ui import View, Button, Select
+from discord.ext import commands
 import json
 import os
 
@@ -51,15 +52,33 @@ async def on_ready():
     scheduler.start()  # 스케줄러 시작
     global participants
     participants = load_data()  # JSON 데이터 불러오기
-    print("스케줄러 시작")
+    
+    # 등록된 명령어를 출력
+    command_list = [command.name for command in bot.commands]
+    for command in command_list:
+        print(f"- {command}")
+    
+    # 명령어 목록을 특정 채널에 보내는 코드 (선택 사항)
+    # 디스코드 서버의 특정 텍스트 채널 ID를 설정해 메시지를 보낼 수 있습니다.
+    guild = bot.guilds[0]  # 첫 번째 서버로 접근 (필요시 변경)
+    default_channel = guild.text_channels[0]  # 첫 번째 채널로 접근 (필요시 변경)
+    
+    # 디스코드 채널에 보내는 메세지
+    # try:
+    #     await default_channel.send(
+    #         "봇이 성공적으로 시작되었습니다. 등록된 명령어 목록:\n" +
+    #         "\n".join([f"`{command}`" for command in command_list])
+    #     )
+    # except discord.Forbidden:
+    #     print("디폴트 채널에 메시지를 보낼 수 없습니다.")
 
 # 인사
-@bot.command()
+@bot.command(name="인사")
 async def hello(ctx):
     await ctx.send("안녕하세요! 저는 디스코드 봇입니다.")
 
 # 멤버 추가
-@bot.command()
+@bot.command(name="멤버추가")
 async def add_member(ctx, member: discord.Member):
     """참여 멤버 추가"""
     member_id = str(member.id)  # ID를 문자열로 저장
@@ -73,7 +92,7 @@ async def add_member(ctx, member: discord.Member):
 
 
 # 멤버 삭제
-@bot.command()
+@bot.command(name="멤버삭제")
 async def remove_member(ctx, member: discord.Member):
     """참여 멤버 제거"""
     if member.id not in participants:
@@ -86,7 +105,7 @@ async def remove_member(ctx, member: discord.Member):
 
 
 # DM 전송
-@bot.command()
+@bot.command(name="DM전송")
 async def send_dm(ctx):
     """월요일 DM 발송"""
     for member_id in participants.keys():
@@ -95,7 +114,7 @@ async def send_dm(ctx):
     await ctx.send("DM을 발송했습니다.")
 
 # 멤버 목록 조회
-@bot.command()
+@bot.command(name="멤버목록조회")
 async def list_members(ctx):
     """참여 멤버 목록 출력"""
     if not participants:
@@ -148,7 +167,7 @@ async def on_message(message):
     await bot.process_commands(message)
 
 # 날짜 선택
-@bot.command()
+@bot.command(name="날짜선택")
 async def select_day(ctx):
     """요일 선택 인터페이스를 제공"""
     # 디버깅용: 요청한 사용자의 ID 출력
@@ -174,6 +193,12 @@ class DaySelectView(View):
         super().__init__()
         self.user_id = user_id
 
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.user.id != self.user_id:
+            await interaction.response.send_message("이 버튼은 당신을 위한 것이 아닙니다!", ephemeral=True)
+            return False
+        return True
+
     @discord.ui.button(label="월요일", style=discord.ButtonStyle.primary)
     async def select_monday(self, interaction: discord.Interaction, button: Button):
         await self.handle_day_selection(interaction, "월요일")
@@ -181,110 +206,78 @@ class DaySelectView(View):
     @discord.ui.button(label="화요일", style=discord.ButtonStyle.primary)
     async def select_tuesday(self, interaction: discord.Interaction, button: Button):
         await self.handle_day_selection(interaction, "화요일")
+        
+    @discord.ui.button(label="수요일", style=discord.ButtonStyle.primary)
+    async def select_wednesday(self, interaction: discord.Interaction, button: Button):
+        await self.handle_day_selection(interaction, "수요일")
+        
+    @discord.ui.button(label="목요일", style=discord.ButtonStyle.primary)
+    async def select_thursday(self, interaction: discord.Interaction, button: Button):
+        await self.handle_day_selection(interaction, "목요일")
+        
+    @discord.ui.button(label="금요일", style=discord.ButtonStyle.primary)
+    async def select_friday(self, interaction: discord.Interaction, button: Button):
+        await self.handle_day_selection(interaction, "금요일")
 
     async def handle_day_selection(self, interaction: discord.Interaction, day: str):
-        if self.user_id != interaction.user.id:
-            await interaction.response.send_message("이 버튼은 당신을 위한 것이 아닙니다!", ephemeral=True)
-            return
-
         await interaction.response.send_message(f"{day}를 선택했습니다. 시간을 설정해주세요!", ephemeral=True)
-        view = TimeSelectView(user_id=self.user_id, selected_day=day)
+        view = TimeRangeView(user_id=self.user_id, day=day)
+        print("View 상태:", view)
+
         await interaction.followup.send(f"{day} 시간 선택을 진행하세요.", view=view)
 
-async def handle_day_selection(self, interaction, day):
-    """요일을 선택한 후, 시간을 선택할 수 있게 하는 함수"""
-    try:
-        # 버튼을 5개씩 나누어 추가하는 방법
-        time_select_view = TimeSelectView(user_id=self.user_id, selected_day=day)
-        
-        # 버튼 추가가 5개를 초과할 경우, 여러 View로 나누어서 보내기
-        await interaction.response.send_message(
-            f"{day}을(를) 선택하셨습니다. 시간을 선택해주세요.",
-            view=time_select_view
-        )
-    except ValueError as e:
-        print(f"오류 발생: {e}")
-        await interaction.response.send_message("버튼 추가에 오류가 발생했습니다. 다시 시도해주세요.")
-
-
-class TimeSelectView(discord.ui.View):
-    def __init__(self, user_id, selected_day):
-        super().__init__(timeout=180.0)
+class TimeRangeView(View):
+    def __init__(self,user_id,day):
+        super().__init__(timeout=300)  # 5분 타임아웃
         self.user_id = user_id
-        self.selected_day = selected_day
-        self.selected_time = None
-        self.selected_minute = None
+        self.day = day
+        self.start_time = None
+        self.end_time = None
 
-        # 시간 버튼 추가 (예: 9시부터 10시까지)
-        self.add_item(discord.ui.Button(label="09:00", custom_id="time_09:00"))
-        self.add_item(discord.ui.Button(label="10:00", custom_id="time_10:00"))
-        self.add_item(discord.ui.Button(label="11:00", custom_id="time_11:00"))
-        self.add_item(discord.ui.Button(label="12:00", custom_id="time_12:00"))
-        # 시간 버튼은 필요에 따라 계속 추가
+        # 시작 시간 선택
+        start_options = [discord.SelectOption(label=f"{hour:02d}:00", value=f"{hour:02d}:00") for hour in range(0, 24)]
+        print("시작 시간 옵션:", start_options)  # 디버깅 메시지
+        self.add_item(discord.ui.Select(
+            placeholder="시작 시간을 선택하세요",
+            options=start_options,
+            custom_id="start_time"
+        ))
 
-    @discord.ui.button(label="시간 선택 완료", style=discord.ButtonStyle.primary)
-    async def time_done(self, button: discord.ui.Button, interaction: discord.Interaction):
-        if self.selected_time is None:
-            await interaction.response.send_message("시간을 먼저 선택해주세요.")
-            return
-        # 시간이 선택된 후 분 선택 UI로 이동
-        minute_select_view = MinuteSelectView(self.user_id, self.selected_day, self.selected_time)
-        await interaction.response.send_message(f"{self.selected_time}에 대한 분을 선택해주세요.", view=minute_select_view)
+        # 종료 시간 선택
+        end_options = [discord.SelectOption(label=f"{hour:02d}:00", value=f"{hour:02d}:00") for hour in range(0, 24)]
+        print("종료 시간 옵션:", end_options)  # 디버깅 메시지
+        self.add_item(discord.ui.Select(
+            placeholder="종료 시간을 선택하세요",
+            options=end_options,
+            custom_id="end_time"
+        ))
+
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.user.id != self.user_id:
+            await interaction.response.send_message("이 상호작용은 당신을 위한 것이 아닙니다!", ephemeral=True)
+            return False
+        return True
+
+    @discord.ui.select(custom_id="start_time")
+    async def select_start_time(self, interaction: discord.Interaction, select: Select):
+        self.start_time = select.values[0]
+        await interaction.response.send_message(f"시작 시간을 {self.start_time}로 설정했습니다.", ephemeral=True)
+
+    @discord.ui.select(custom_id="end_time")
+    async def select_end_time(self, interaction: discord.Interaction, select: Select):
+        self.end_time = select.values[0]
+        if self.start_time and self.end_time:
+            await interaction.response.send_message(
+                f"시간 범위가 {self.start_time}부터 {self.end_time}까지로 설정되었습니다!", ephemeral=True)
+        else:
+            await interaction.response.send_message("시간 범위를 완전히 선택해주세요!", ephemeral=True)
 
     async def on_timeout(self):
         for item in self.children:
             item.disabled = True
-        await self.message.edit(view=self)
+        # UI 비활성화 처리 후 업데이트
+        if hasattr(self, 'message') and self.message:
+            await self.message.edit(view=self)
 
-    @discord.ui.button(label="월요일", custom_id="monday")
-    async def select_monday(self, interaction: discord.Interaction):
-        """월요일을 선택했을 때, TimeSelectView로 넘어가도록 설정"""
-        self.selected_day = "월요일"
-        await interaction.response.send_message(f"월요일을 선택했습니다. 시간대를 선택하세요.", view=self)
-
-    async def interaction_check(self, interaction: discord.Interaction) -> bool:
-        if interaction.user.id != self.user_id:
-            await interaction.response.send_message("이 명령어는 본인만 사용할 수 있습니다.", ephemeral=True)
-            return False
-        return True
-
-class MinuteSelectView(discord.ui.View):
-    def __init__(self, user_id, selected_day, selected_time):
-        super().__init__(timeout=180.0)
-        self.user_id = user_id
-        self.selected_day = selected_day
-        self.selected_time = selected_time
-        self.selected_minute = None
-
-        # 10분 단위로 분 선택 버튼 추가
-        for minute in range(0, 60, 10):
-            self.add_item(discord.ui.Button(label=f"{minute:02d}", custom_id=f"minute_{minute:02d}"))
-
-    async def on_timeout(self):
-        for item in self.children:
-            item.disabled = True
-        await self.message.edit(view=self)
-
-    @discord.ui.button(label="분 선택 완료", style=discord.ButtonStyle.primary)
-    async def minute_done(self, button: discord.ui.Button, interaction: discord.Interaction):
-        if self.selected_minute is None:
-            await interaction.response.send_message("분을 먼저 선택해주세요.")
-            return
-        # 시간이랑 분을 합쳐서 최종적으로 선택 완료
-        await interaction.response.send_message(f"{self.selected_day} {self.selected_time}에 {self.selected_minute}분으로 예약되었습니다.")
-
-    async def interaction_check(self, interaction: discord.Interaction) -> bool:
-        if interaction.user.id != self.user_id:
-            await interaction.response.send_message("이 명령어는 본인만 사용할 수 있습니다.", ephemeral=True)
-            return False
-        return True
-
-    @discord.ui.button(label="분 선택 완료", style=discord.ButtonStyle.primary)
-    async def minute_done(self, button: discord.ui.Button, interaction: discord.Interaction):
-        if self.selected_minute is None:
-            await interaction.response.send_message("분을 먼저 선택해주세요.")
-            return
-        # 시간이랑 분을 합쳐서 최종적으로 선택 완료
-        await interaction.response.send_message(f"{self.selected_day} {self.selected_time}에 {self.selected_minute}분으로 예약되었습니다.")
 
 bot.run(TOKEN)
