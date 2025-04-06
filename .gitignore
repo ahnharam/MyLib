@@ -16,3 +16,5 @@
 *.prefs
 .metadata
 Debug
+*config.py
+*config.cpython*
