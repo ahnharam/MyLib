@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\14장\UsingExpressionTree\bin\Debug\net6.0\UsingExpressionTree.exe
+C:\Users\M\source\repos\14장\UsingExpressionTree\bin\Debug\net6.0\UsingExpressionTree.deps.json
+C:\Users\M\source\repos\14장\UsingExpressionTree\bin\Debug\net6.0\UsingExpressionTree.runtimeconfig.json
+C:\Users\M\source\repos\14장\UsingExpressionTree\bin\Debug\net6.0\UsingExpressionTree.dll
+C:\Users\M\source\repos\14장\UsingExpressionTree\bin\Debug\net6.0\UsingExpressionTree.pdb
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.AssemblyInfo.cs
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.dll
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\refint\UsingExpressionTree.dll
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.pdb
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\UsingExpressionTree.genruntimeconfig.cache
+C:\Users\M\source\repos\14장\UsingExpressionTree\obj\Debug\net6.0\ref\UsingExpressionTree.dll

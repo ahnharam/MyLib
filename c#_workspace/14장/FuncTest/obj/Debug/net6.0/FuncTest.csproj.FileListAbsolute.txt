@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\14장\FuncTest\bin\Debug\net6.0\FuncTest.exe
+C:\Users\M\source\repos\14장\FuncTest\bin\Debug\net6.0\FuncTest.deps.json
+C:\Users\M\source\repos\14장\FuncTest\bin\Debug\net6.0\FuncTest.runtimeconfig.json
+C:\Users\M\source\repos\14장\FuncTest\bin\Debug\net6.0\FuncTest.dll
+C:\Users\M\source\repos\14장\FuncTest\bin\Debug\net6.0\FuncTest.pdb
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.AssemblyInfo.cs
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.dll
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\refint\FuncTest.dll
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.pdb
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\FuncTest.genruntimeconfig.cache
+C:\Users\M\source\repos\14장\FuncTest\obj\Debug\net6.0\ref\FuncTest.dll

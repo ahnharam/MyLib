@@ -1,0 +1,15 @@
+C:\Users\M\source\repos\14장\SimpleLambda\bin\Debug\net6.0\SimpleLambda.exe
+C:\Users\M\source\repos\14장\SimpleLambda\bin\Debug\net6.0\SimpleLambda.deps.json
+C:\Users\M\source\repos\14장\SimpleLambda\bin\Debug\net6.0\SimpleLambda.runtimeconfig.json
+C:\Users\M\source\repos\14장\SimpleLambda\bin\Debug\net6.0\SimpleLambda.dll
+C:\Users\M\source\repos\14장\SimpleLambda\bin\Debug\net6.0\SimpleLambda.pdb
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.AssemblyInfoInputs.cache
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.AssemblyInfo.cs
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.dll
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\refint\SimpleLambda.dll
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.pdb
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\SimpleLambda.genruntimeconfig.cache
+C:\Users\M\source\repos\14장\SimpleLambda\obj\Debug\net6.0\ref\SimpleLambda.dll
