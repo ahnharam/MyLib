@@ -1,66 +1,64 @@
 from discord.ext import commands
-from database import get_latest_raid, is_already_joined, join_raid, cancel_participation
-import pymysql
+from database.participants import (
+    is_already_joined,
+    add_participant,
+    remove_participant
+)
+from database.raids import get_raid_with_participants_by_title
+import discord
 
-# 레이드 참가 명령어 (!참가)
+# ✅ 레이드 참가 명령어
 @commands.command()
-async def 참가(ctx):
+async def 참가(ctx, 보스명: str = None):
+    if not 보스명:
+        await ctx.send("❌ 사용법: `!참가 [보스명]`")
+        return
+
+    server_id = str(ctx.guild.id)
+    user_id = str(ctx.author.id)
+
     try:
-        server_id = str(ctx.guild.id)
-        user_id = str(ctx.author.id)
-
-        # 최신 레이드 ID 가져오기
-        try:
-            raid_id = get_latest_raid(server_id)
-        except pymysql.err.OperationalError:
-            await ctx.send("❌ 데이터베이스 연결에 실패했습니다. 나중에 다시 시도해주세요.")
+        raid_info, _ = get_raid_with_participants_by_title(server_id, 보스명)
+        if not raid_info:
+            await ctx.send(f"⚠️ `{보스명}` 레이드는 등록되어 있지 않습니다.")
             return
 
-        if not raid_id:
-            await ctx.send("⚠️ 현재 등록된 레이드가 없습니다.")
+        raid_id, title, time = raid_info
+
+        if is_already_joined(raid_id, user_id):
+            await ctx.send("⚠️ 이미 참가한 레이드입니다.")
             return
 
-        # 중복 참가 여부 확인
-        try:
-            if is_already_joined(raid_id, user_id):
-                await ctx.send("⚠️ 이미 이 레이드에 참가하셨습니다.")
-                return
-        except pymysql.err.OperationalError:
-            await ctx.send("❌ 참가자 확인 중 오류가 발생했습니다.")
-            return
-
-        # 참가 처리
-        try:
-            join_raid(raid_id, user_id)
-            await ctx.send(f"✅ {ctx.author.display_name} 님이 레이드에 참가하셨습니다!")
-        except pymysql.err.IntegrityError:
-            await ctx.send("❌ 참가 처리 중 문제가 발생했습니다.")
-            return
+        add_participant(raid_id, user_id)
+        await ctx.send(f"✅ `{title}` 레이드({time.strftime('%H:%M')})에 참가 완료!")
 
     except Exception as e:
-        await ctx.send(f"⚠️ 알 수 없는 오류가 발생했습니다: `{str(e)}`")
+        await ctx.send(f"❌ 참가 중 오류 발생: `{str(e)}`")
 
+# ✅ 레이드 참가 취소 명령어
 @commands.command()
-async def 취소(ctx):
+async def 취소(ctx, 보스명: str = None):
+    if not 보스명:
+        await ctx.send("❌ 사용법: `!취소 [보스명]`")
+        return
+
+    server_id = str(ctx.guild.id)
+    user_id = str(ctx.author.id)
+
     try:
-        server_id = str(ctx.guild.id)
-        user_id = str(ctx.author.id)
-
-        # 최신 레이드 ID 가져오기
-        raid_id = get_latest_raid(server_id)
-
-        if not raid_id:
-            await ctx.send("⚠️ 취소할 수 있는 레이드가 없습니다.")
+        raid_info, _ = get_raid_with_participants_by_title(server_id, 보스명)
+        if not raid_info:
+            await ctx.send(f"⚠️ `{보스명}` 레이드는 등록되어 있지 않습니다.")
             return
 
-        # 참가 여부 확인
+        raid_id, title, time = raid_info
+
         if not is_already_joined(raid_id, user_id):
-            await ctx.send("⚠️ 현재 레이드에 참가 중이 아닙니다.")
+            await ctx.send("⚠️ 아직 참가하지 않은 레이드입니다.")
             return
 
-        # 참가 취소 처리
-        cancel_participation(raid_id, user_id)
-        await ctx.send(f"❎ {ctx.author.display_name} 님의 참가가 취소되었습니다.")
+        remove_participant(raid_id, user_id)
+        await ctx.send(f"🗑️ `{title}` 레이드({time.strftime('%H:%M')}) 참가를 취소했어요.")
 
     except Exception as e:
-        await ctx.send(f"⚠️ 참가 취소 중 오류 발생: `{str(e)}`")
+        await ctx.send(f"❌ 취소 중 오류 발생: `{str(e)}`")
