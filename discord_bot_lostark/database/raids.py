@@ -1,5 +1,6 @@
 import pymysql
 from config import DB_CONFIG
+from database.participants import copy_participants  # 꼭 추가해야 함
 
 # 레이드 등록 함수 (보스명 + 시간 중복 등록 방지)
 def insert_raid(server_id, title, creator_id, raid_time):
@@ -106,7 +107,9 @@ def get_raid_with_creator_by_title(server_id, title):
                 SELECT Id, CreatorId
                 FROM Raids
                 WHERE ServerId = %s AND Title = %s
-                  AND DeletedAt IS NULL
+                AND HOUR(ScheduledTime) = %s
+                AND MINUTE(ScheduledTime) = %s
+                AND DeletedAt IS NULL
                 ORDER BY CreatedAt DESC
                 LIMIT 1
             """
@@ -142,7 +145,7 @@ def get_future_raids(now):
     finally:
         conn.close()
 
-# 레이드 시간 수정 함수
+# 레이드 시간 수정 함수 (참가자 복사 포함)
 def recreate_raid_with_new_time(old_raid_id, new_time):
     conn = pymysql.connect(**DB_CONFIG)
     try:
@@ -167,11 +170,20 @@ def recreate_raid_with_new_time(old_raid_id, new_time):
             """
             cursor.execute(sql_insert, (server_id, title, new_time, creator_id))
 
-        conn.commit()
+            # 4. 새 레이드 ID 획득
+            new_raid_id = cursor.lastrowid
 
-        # 새 레이드 ID 반환
-        return cursor.lastrowid
+            # 5. 기존 참가자 복사
+            copy_sql = """
+                INSERT INTO RaidParticipants (RaidId, UserId)
+                SELECT %s, UserId
+                FROM RaidParticipants
+                WHERE RaidId = %s AND DeletedAt IS NULL
+            """
+            cursor.execute(copy_sql, (new_raid_id, old_raid_id))
+
+        conn.commit()
+        return new_raid_id
 
     finally:
         conn.close()
-
