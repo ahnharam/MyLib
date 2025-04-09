@@ -1,11 +1,13 @@
 services:
-  - type: web
+  - type: web                      # ✅ web으로 유지
     name: lostark-discord-bot
     env: python
     plan: free
     buildCommand: pip install -r discord_bot_lostark/requirements.txt
-    startCommand: python discord_bot_lostark/run.py
+    startCommand: python run.py
+    rootDir: discord_bot_lostark
     autoDeploy: true
+    healthCheckPath: /healthz      # ✅ 포트 스캔 통과용 더미 경로
     envVars:
       - key: DISCORD_TOKEN
         sync: false
