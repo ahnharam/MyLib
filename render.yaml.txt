@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: lostark-discord-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r discord_bot_lostark/requirements.txt
+    startCommand: python discord_bot_lostark/run.py
+    autoDeploy: true
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: DB_HOST
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        sync: false
+      - key: DB_PORT
+        sync: false
