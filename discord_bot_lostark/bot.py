@@ -1,6 +1,5 @@
 import discord
-from config import DISCORD_TOKEN
-from logic import scheduler_helper
+import os
 
 from discord.ext import commands
 
@@ -8,8 +7,11 @@ from discord.ext import commands
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 # 명령어 모듈 import
+from logic import scheduler_helper
 from logic import raid_commands, join_commands
 from logic.scheduler_helper import load_pending_alarms
+
+DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]  # 값이 없으면 KeyError 발생
 
 intents = discord.Intents.default()
 intents.message_content = True
