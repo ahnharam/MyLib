@@ -82,3 +82,26 @@ async def load_pending_alarms(scheduler):
             print(f"✅ 재등록: {title} @ {alarm_time.strftime('%H:%M')}")
 
     print("✅ [완료] 레이드 알림 재등록 완료")
+
+# ✅ 전체 레이드 목록 조회 메시지 생성 (Embed)
+async def generate_full_raid_list_embed(server_id: str):
+    raids = get_all_raids_with_count(server_id)
+
+    embed = discord.Embed(
+        title="📅 전체 레이드 목록",
+        description="예정된 모든 레이드를 확인할 수 있습니다.",
+        color=discord.Color.teal()
+    )
+
+    if not raids:
+        embed.add_field(name="레이드 없음", value="예정된 레이드가 없습니다.", inline=False)
+    else:
+        for raid in raids:
+            raid_id, title, time, count = raid
+            embed.add_field(
+                name=f"[{raid_id}] {title}",
+                value=f"⏰ {time.strftime('%Y-%m-%d %H:%M')}\n👥 참가자: {count}명",
+                inline=False
+            )
+
+    return embed

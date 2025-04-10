@@ -217,3 +217,19 @@ def get_raid_list(server_id, start, end):
             return cursor.fetchall()
     finally:
         conn.close()
+
+def get_all_raids_with_count(server_id):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql = (
+                "SELECT R.Id, R.Title, R.ScheduledTime, COUNT(P.Id) AS ParticipantCount "
+                "FROM raids R "
+                "LEFT JOIN raidparticipants P ON R.Id = P.RaidId AND P.DeletedAt IS NULL "
+                "WHERE R.ServerId = %s AND R.DeletedAt IS NULL AND R.ScheduledTime > NOW() "
+                "GROUP BY R.Id ORDER BY R.CreatedAt DESC"
+            )
+            cursor.execute(sql, (server_id,))
+            return cursor.fetchall()
+    finally:
+        conn.close()

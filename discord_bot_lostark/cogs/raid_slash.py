@@ -11,9 +11,9 @@ from database.raids import (
     get_raid_list,
     get_raid_info_with_participants,
     delete_raid,
-    update_raid_time
+    update_raid_time,
 )
-from logic.scheduler_helper import schedule_raid_alarm
+from logic.scheduler_helper import schedule_raid_alarm, generate_full_raid_list_embed
 
 
 class RaidJoinView(View):
@@ -185,6 +185,12 @@ class RaidSlashCog(commands.Cog):
 
         except Exception as e:
             await interaction.response.send_message(f"❌ 상세 정보 조회 실패: {str(e)}", ephemeral=True)
+
+    @app_commands.command(name="전체목록", description="예정된 모든 레이드 목록을 확인합니다.")
+    async def 전체목록(self, interaction: discord.Interaction):
+        embed = await generate_full_raid_list_embed(str(interaction.guild.id))
+        await interaction.response.send_message(embed=embed)
+
 
 
 async def setup(bot):
