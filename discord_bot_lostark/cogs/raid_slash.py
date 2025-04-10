@@ -8,9 +8,10 @@ from database.raids import (
     insert_raid,
     get_latest_raid,
     get_raid_id_by_message_id,
-    add_participant,
-    remove_participant,
-    get_raid_info_with_participants
+    get_raid_list,
+    get_raid_info_with_participants,
+    delete_raid,
+    update_raid_time
 )
 from logic.scheduler_helper import schedule_raid_alarm
 
@@ -21,11 +22,12 @@ class RaidJoinView(View):
 
     @discord.ui.button(label="참가", style=discord.ButtonStyle.success, custom_id="raid_join")
     async def join_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        user_id = str(interaction.user.id)
-        guild_id = str(interaction.guild.id)
-        message_id = interaction.message.id
+        from database.raids import add_participant
 
+        user_id = str(interaction.user.id)
+        message_id = interaction.message.id
         raid_id = get_raid_id_by_message_id(message_id)
+
         if not raid_id:
             await interaction.response.send_message("❌ 레이드를 찾을 수 없습니다.", ephemeral=True)
             return
@@ -40,10 +42,12 @@ class RaidJoinView(View):
 
     @discord.ui.button(label="취소", style=discord.ButtonStyle.danger, custom_id="raid_cancel")
     async def cancel_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        from database.raids import remove_participant
+
         user_id = str(interaction.user.id)
         message_id = interaction.message.id
-
         raid_id = get_raid_id_by_message_id(message_id)
+
         if not raid_id:
             await interaction.response.send_message("❌ 레이드를 찾을 수 없습니다.", ephemeral=True)
             return
@@ -92,14 +96,13 @@ class RaidSlashCog(commands.Cog):
             server_id = str(interaction.guild.id)
             creator_id = str(interaction.user.id)
 
-            message_embed = discord.Embed(
+            embed = discord.Embed(
                 title=f"🛡️ 레이드 모집 - {보스명}",
                 description=f"⏰ 시작 시각: `{raid_time.strftime('%H:%M')}`\n👉 참가를 원하시면 버튼을 눌러주세요!",
                 color=discord.Color.blue()
             )
-
             view = RaidJoinView()
-            await interaction.response.send_message(embed=message_embed, view=view)
+            await interaction.response.send_message(embed=embed, view=view)
             sent_msg = await interaction.original_response()
 
             insert_raid(server_id, 보스명, creator_id, raid_time, sent_msg.id)
@@ -110,6 +113,78 @@ class RaidSlashCog(commands.Cog):
 
         except Exception as e:
             await interaction.response.send_message(f"❌ 오류 발생: {str(e)}", ephemeral=True)
+
+    @app_commands.command(name="목록", description="오늘 등록된 레이드 목록을 확인합니다.")
+    async def 목록(self, interaction: discord.Interaction):
+        now = datetime.now()
+        start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        end = now.replace(hour=23, minute=59, second=59, microsecond=999999)
+
+        server_id = str(interaction.guild.id)
+        raids = get_raid_list(server_id, start, end)
+
+        embed = discord.Embed(
+            title="📋 오늘의 레이드 목록",
+            description="레이드 ID를 통해 `/레이드삭제`, `/레이드수정`, `/상세` 명령어에 사용할 수 있어요.",
+            color=discord.Color.green()
+        )
+
+        if not raids:
+            embed.add_field(name="레이드 없음", value="오늘 등록된 레이드가 없습니다.", inline=False)
+        else:
+            for raid in raids:
+                raid_id, title, time = raid
+                embed.add_field(
+                    name=f"[{raid_id}] {title}",
+                    value=f"⏰ {time.strftime('%H:%M')}",
+                    inline=False
+                )
+
+        await interaction.response.send_message(embed=embed)
+
+    @app_commands.command(name="레이드삭제", description="해당 ID의 레이드를 삭제합니다.")
+    @app_commands.describe(레이드ID="삭제할 레이드의 ID")
+    async def 레이드삭제(self, interaction: discord.Interaction, 레이드ID: int):
+        try:
+            delete_raid(레이드ID)
+            await interaction.response.send_message(f"🗑️ 레이드(ID: {레이드ID})가 삭제되었습니다.")
+        except Exception as e:
+            await interaction.response.send_message(f"❌ 삭제 실패: {str(e)}", ephemeral=True)
+
+    @app_commands.command(name="레이드수정", description="레이드 시간을 수정합니다.")
+    @app_commands.describe(레이드ID="대상 ID", 새시간="새로운 시간 (예: 21:00)")
+    async def 레이드수정(self, interaction: discord.Interaction, 레이드ID: int, 새시간: str):
+        try:
+            hour, minute = map(int, 새시간.split(":"))
+            new_time = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
+            update_raid_time(레이드ID, new_time)
+            await interaction.response.send_message(f"✏️ 레이드(ID: {레이드ID}) 시간이 `{새시간}`으로 수정되었습니다.")
+        except Exception as e:
+            await interaction.response.send_message(f"❌ 수정 실패: {str(e)}", ephemeral=True)
+
+    @app_commands.command(name="상세", description="레이드 참가자 상세 목록을 확인합니다.")
+    @app_commands.describe(레이드ID="확인할 레이드의 ID")
+    async def 상세(self, interaction: discord.Interaction, 레이드ID: int):
+        try:
+            title, time, participants = get_raid_info_with_participants(레이드ID)
+            embed = discord.Embed(
+                title=f"📋 레이드 상세 - {title}",
+                description=f"⏰ 시작 시각: `{time.strftime('%H:%M')}`",
+                color=discord.Color.purple()
+            )
+            if participants:
+                embed.add_field(
+                    name="👥 참가자 목록",
+                    value="\n".join([f"- <@{user_id}>" for user_id in participants]),
+                    inline=False
+                )
+            else:
+                embed.add_field(name="👥 참가자 목록", value="없음", inline=False)
+
+            await interaction.response.send_message(embed=embed)
+
+        except Exception as e:
+            await interaction.response.send_message(f"❌ 상세 정보 조회 실패: {str(e)}", ephemeral=True)
 
 
 async def setup(bot):
