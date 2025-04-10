@@ -233,3 +233,30 @@ def get_all_raids_with_count(server_id):
             return cursor.fetchall()
     finally:
         conn.close()
+
+def get_raid_with_participants_by_title(server_id, title):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql_raid = """
+                SELECT Id, Title, ScheduledTime
+                FROM raids
+                WHERE ServerId = %s AND Title = %s AND DeletedAt IS NULL
+                ORDER BY CreatedAt DESC
+                LIMIT 1
+            """
+            cursor.execute(sql_raid, (server_id, title))
+            raid = cursor.fetchone()
+            if not raid:
+                return None, []
+            raid_id, title, time = raid
+
+            sql_participants = """
+                SELECT UserId FROM raidparticipants
+                WHERE RaidId = %s AND DeletedAt IS NULL
+            """
+            cursor.execute(sql_participants, (raid_id,))
+            participants = cursor.fetchall()
+            return (raid_id, title, time), [row[0] for row in participants]
+    finally:
+        conn.close()
