@@ -84,10 +84,10 @@ class RaidSlashCog(commands.Cog):
         self.bot = bot
 
     @app_commands.command(name="레이드등록", description="레이드를 등록합니다.")
-    @app_commands.describe(보스명="보스 이름", 시간="예: 21:30")
-    async def 레이드등록(self, interaction: discord.Interaction, 보스명: str, 시간: str):
+    @app_commands.describe(boss_name="보스 이름", time="예: 21:30")
+    async def 레이드등록(self, interaction: discord.Interaction, boss_name: str, time: str):
         try:
-            hour, minute = map(int, 시간.split(":"))
+            hour, minute = map(int, time.split(":"))
             now = datetime.now()
             raid_time = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
             if raid_time < now:
@@ -97,7 +97,7 @@ class RaidSlashCog(commands.Cog):
             creator_id = str(interaction.user.id)
 
             embed = discord.Embed(
-                title=f"🛡️ 레이드 모집 - {보스명}",
+                title=f"🛡️ 레이드 모집 - {boss_name}",
                 description=f"⏰ 시작 시각: `{raid_time.strftime('%H:%M')}`\n👉 참가를 원하시면 버튼을 눌러주세요!",
                 color=discord.Color.blue()
             )
@@ -105,11 +105,11 @@ class RaidSlashCog(commands.Cog):
             await interaction.response.send_message(embed=embed, view=view)
             sent_msg = await interaction.original_response()
 
-            insert_raid(server_id, 보스명, creator_id, raid_time, sent_msg.id)
+            insert_raid(server_id, boss_name, creator_id, raid_time, sent_msg.id)
             raid_id = get_latest_raid(server_id)
 
             alarm_time = raid_time - timedelta(minutes=10)
-            schedule_raid_alarm(self.bot.scheduler, alarm_time, server_id, raid_id, 보스명, raid_time)
+            schedule_raid_alarm(self.bot.scheduler, alarm_time, server_id, raid_id, boss_name, raid_time)
 
         except Exception as e:
             await interaction.response.send_message(f"❌ 오류 발생: {str(e)}", ephemeral=True)
@@ -143,30 +143,30 @@ class RaidSlashCog(commands.Cog):
         await interaction.response.send_message(embed=embed)
 
     @app_commands.command(name="레이드삭제", description="해당 ID의 레이드를 삭제합니다.")
-    @app_commands.describe(레이드ID="삭제할 레이드의 ID")
-    async def 레이드삭제(self, interaction: discord.Interaction, 레이드ID: int):
+    @app_commands.describe(raid_id="삭제할 레이드의 ID")
+    async def 레이드삭제(self, interaction: discord.Interaction, raid_id: int):
         try:
-            delete_raid(레이드ID)
-            await interaction.response.send_message(f"🗑️ 레이드(ID: {레이드ID})가 삭제되었습니다.")
+            delete_raid(raid_id)
+            await interaction.response.send_message(f"🗑️ 레이드(ID: {raid_id})가 삭제되었습니다.")
         except Exception as e:
             await interaction.response.send_message(f"❌ 삭제 실패: {str(e)}", ephemeral=True)
 
     @app_commands.command(name="레이드수정", description="레이드 시간을 수정합니다.")
-    @app_commands.describe(레이드ID="대상 ID", 새시간="새로운 시간 (예: 21:00)")
-    async def 레이드수정(self, interaction: discord.Interaction, 레이드ID: int, 새시간: str):
+    @app_commands.describe(raid_id="대상 ID", new_time="새로운 시간 (예: 21:00)")
+    async def 레이드수정(self, interaction: discord.Interaction, raid_id: int, new_time: str):
         try:
-            hour, minute = map(int, 새시간.split(":"))
+            hour, minute = map(int, new_time.split(":"))
             new_time = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
-            update_raid_time(레이드ID, new_time)
-            await interaction.response.send_message(f"✏️ 레이드(ID: {레이드ID}) 시간이 `{새시간}`으로 수정되었습니다.")
+            update_raid_time(raid_id, new_time)
+            await interaction.response.send_message(f"✏️ 레이드(ID: {raid_id}) 시간이 `{new_time}`으로 수정되었습니다.")
         except Exception as e:
             await interaction.response.send_message(f"❌ 수정 실패: {str(e)}", ephemeral=True)
 
     @app_commands.command(name="상세", description="레이드 참가자 상세 목록을 확인합니다.")
-    @app_commands.describe(레이드ID="확인할 레이드의 ID")
-    async def 상세(self, interaction: discord.Interaction, 레이드ID: int):
+    @app_commands.describe(raid_id="확인할 레이드의 ID")
+    async def 상세(self, interaction: discord.Interaction, raid_id: int):
         try:
-            title, time, participants = get_raid_info_with_participants(레이드ID)
+            title, time, participants = get_raid_info_with_participants(raid_id)
             embed = discord.Embed(
                 title=f"📋 레이드 상세 - {title}",
                 description=f"⏰ 시작 시각: `{time.strftime('%H:%M')}`",

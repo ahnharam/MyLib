@@ -260,3 +260,38 @@ def get_raid_with_participants_by_title(server_id, title):
             return (raid_id, title, time), [row[0] for row in participants]
     finally:
         conn.close()
+
+def get_raid_by_title_and_time(server_id, title, hour, minute):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql = """
+                SELECT Id, CreatorId
+                FROM raids
+                WHERE ServerId = %s AND Title = %s
+                AND HOUR(ScheduledTime) = %s
+                AND MINUTE(ScheduledTime) = %s
+                AND DeletedAt IS NULL
+                ORDER BY CreatedAt DESC
+                LIMIT 1
+            """
+            cursor.execute(sql, (server_id, title, hour, minute))
+            return cursor.fetchone()
+    finally:
+        conn.close()
+
+def get_raid_with_creator_by_title(server_id, title):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql = """
+                SELECT Id, CreatorId
+                FROM raids
+                WHERE ServerId = %s AND Title = %s AND DeletedAt IS NULL
+                ORDER BY CreatedAt DESC
+                LIMIT 1
+            """
+            cursor.execute(sql, (server_id, title))
+            return cursor.fetchone()
+    finally:
+        conn.close()
