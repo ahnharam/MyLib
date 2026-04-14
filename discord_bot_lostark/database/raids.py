@@ -295,3 +295,185 @@ def get_raid_with_creator_by_title(server_id, title):
             return cursor.fetchone()
     finally:
         conn.close()
+<<<<<<< HEAD
+=======
+
+# 레이드 및 관련 참가자 Soft Delete
+def delete_raid(raid_id):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute("UPDATE Raids SET DeletedAt = NOW() WHERE Id = %s", (raid_id,))
+            cursor.execute("UPDATE RaidParticipants SET DeletedAt = NOW() WHERE RaidId = %s", (raid_id,))
+        conn.commit()
+    finally:
+        conn.close()
+
+# 미래 레이드 목록 조회 (알림 재등록용)
+def get_future_raids(now):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql = """
+                SELECT Id, ServerId, Title, ScheduledTime
+                FROM Raids
+                WHERE ScheduledTime > %s AND DeletedAt IS NULL
+                ORDER BY ScheduledTime ASC
+            """
+            cursor.execute(sql, (now,))
+            return cursor.fetchall()
+    finally:
+        conn.close()
+
+# 레이드 시간 수정 함수 (참가자 복사 포함)
+def recreate_raid_with_new_time(old_raid_id, new_time):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            # 1. 기존 레이드 데이터 조회
+            sql_select = "SELECT ServerId, Title, CreatorId FROM Raids WHERE Id = %s"
+            cursor.execute(sql_select, (old_raid_id,))
+            result = cursor.fetchone()
+            if not result:
+                raise ValueError("기존 레이드를 찾을 수 없습니다.")
+
+            server_id, title, creator_id = result
+
+            # 2. 기존 레이드 Soft Delete 처리
+            sql_delete = "UPDATE Raids SET DeletedAt = NOW() WHERE Id = %s"
+            cursor.execute(sql_delete, (old_raid_id,))
+
+            # 3. 새 레이드 INSERT
+            sql_insert = """
+                INSERT INTO Raids (ServerId, Title, ScheduledTime, CreatorId)
+                VALUES (%s, %s, %s, %s)
+            """
+            cursor.execute(sql_insert, (server_id, title, new_time, creator_id))
+
+            # 4. 새 레이드 ID 획득
+            new_raid_id = cursor.lastrowid
+
+            # 5. 기존 참가자 복사
+            copy_sql = """
+                INSERT INTO RaidParticipants (RaidId, UserId)
+                SELECT %s, UserId
+                FROM RaidParticipants
+                WHERE RaidId = %s AND DeletedAt IS NULL
+            """
+            cursor.execute(copy_sql, (new_raid_id, old_raid_id))
+
+        conn.commit()
+        return new_raid_id
+
+    finally:
+        conn.close()
+
+def update_raid_message_id(raid_id: int, message_id: int):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql = "UPDATE raids SET MessageId = %s WHERE Id = %s"
+            cursor.execute(sql, (message_id, raid_id))
+        conn.commit()
+    finally:
+        conn.close()
+
+def get_raid_id_by_message_id(message_id):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql = "SELECT Id FROM Raids WHERE MessageId = %s AND DeletedAt IS NULL"
+            cursor.execute(sql, (message_id,))
+            result = cursor.fetchone()
+            return result[0] if result else None
+    finally:
+        conn.close()
+
+def add_participant(raid_id, user_id):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            # 이미 Soft Deleted 된 경우 → 복구
+            restore_sql = """
+                UPDATE RaidParticipants SET DeletedAt = NULL
+                WHERE RaidId = %s AND UserId = %s AND DeletedAt IS NOT NULL
+            """
+            cursor.execute(restore_sql, (raid_id, user_id))
+            if cursor.rowcount > 0:
+                conn.commit()
+                return
+
+            # 중복 확인
+            check_sql = """
+                SELECT COUNT(*) FROM RaidParticipants
+                WHERE RaidId = %s AND UserId = %s AND DeletedAt IS NULL
+            """
+            cursor.execute(check_sql, (raid_id, user_id))
+            if cursor.fetchone()[0] > 0:
+                raise ValueError("이미 참가한 레이드입니다.")
+
+            # 신규 등록
+            insert_sql = """
+                INSERT INTO RaidParticipants (RaidId, UserId)
+                VALUES (%s, %s)
+            """
+            cursor.execute(insert_sql, (raid_id, user_id))
+        conn.commit()
+    finally:
+        conn.close()
+
+def remove_participant(raid_id, user_id):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql = """
+                UPDATE RaidParticipants
+                SET DeletedAt = NOW()
+                WHERE RaidId = %s AND UserId = %s AND DeletedAt IS NULL
+            """
+            cursor.execute(sql, (raid_id, user_id))
+        conn.commit()
+    finally:
+        conn.close()
+
+def get_raid_info_with_participants(raid_id):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor() as cursor:
+            sql_raid = """
+                SELECT Title, ScheduledTime FROM Raids
+                WHERE Id = %s AND DeletedAt IS NULL
+            """
+            cursor.execute(sql_raid, (raid_id,))
+            raid = cursor.fetchone()
+            if not raid:
+                return None, None, []
+
+            title, time = raid
+
+            sql_participants = """
+                SELECT UserId FROM RaidParticipants
+                WHERE RaidId = %s AND DeletedAt IS NULL
+            """
+            cursor.execute(sql_participants, (raid_id,))
+            participants = [row[0] for row in cursor.fetchall()]
+
+            return title, time, participants
+    finally:
+        conn.close()
+
+def get_all_active_raids(server_id):
+    conn = pymysql.connect(**DB_CONFIG)
+    try:
+        with conn.cursor(pymysql.cursors.DictCursor) as cursor:
+            sql = """
+                SELECT Title, ScheduledTime
+                FROM raids
+                WHERE ServerId = %s AND DeletedAt IS NULL
+                ORDER BY ScheduledTime
+            """
+            cursor.execute(sql, (server_id,))
+            return cursor.fetchall()
+    finally:
+        conn.close()
+>>>>>>> c411996 (데이터업데이트)

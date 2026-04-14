@@ -1,10 +1,19 @@
 import os
 import discord
 import asyncio
+<<<<<<< HEAD
 from discord.ext import commands
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 from logic import scheduler_helper
+=======
+from config import DISCORD_TOKEN
+from logic import scheduler_helper
+from discord.ext import commands
+
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+
+>>>>>>> c411996 (데이터업데이트)
 from logic import raid_commands, join_commands
 from logic.scheduler_helper import load_pending_alarms
 from cogs.raid_slash import RaidJoinView
@@ -25,12 +34,20 @@ intents.members = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
+<<<<<<< HEAD
 # ✅ 스케줄러 생성 및 주입
+=======
+# APScheduler 등록
+>>>>>>> c411996 (데이터업데이트)
 scheduler = AsyncIOScheduler()
 raid_commands.scheduler = scheduler
 scheduler_helper.bot = bot
 
+<<<<<<< HEAD
 # ✅ 기본 명령어 등록
+=======
+# 명령어 등록
+>>>>>>> c411996 (데이터업데이트)
 bot.add_command(raid_commands.레이드등록)
 bot.add_command(raid_commands.레이드삭제)
 bot.add_command(raid_commands.레이드수정)
@@ -44,17 +61,27 @@ async def on_ready():
     print(f"✅ 봇 로그인 성공: {bot.user.name}")
     try:
         synced = await bot.tree.sync()
+<<<<<<< HEAD
         print(f"🌿 슬래시 명령어 등록 완료: {len(synced)}개")
     except Exception as e:
         print(f"❌ 슬래시 명령어 등록 실패: {e}")
+=======
+        print(f"🌿 슬래시 명령어 동기화 완료 ({len(synced)}개)")
+    except Exception as e:
+        print(f"❌ 슬래시 명령어 동기화 실패: {e}")
+>>>>>>> c411996 (데이터업데이트)
 
     scheduler.start()
     await load_pending_alarms(scheduler)
 
 async def main():
     bot.scheduler = scheduler
+<<<<<<< HEAD
     await bot.load_extension("cogs.raid_slash")  # ✅ 슬래시 명령어 Cog 로딩
     bot.add_view(RaidJoinView())  # ✅ 버튼 View 등록 (persistent view)
+=======
+    await bot.load_extension("cogs.raid_slash")
+>>>>>>> c411996 (데이터업데이트)
     await bot.start(DISCORD_TOKEN)
 
 if __name__ == "__main__":
